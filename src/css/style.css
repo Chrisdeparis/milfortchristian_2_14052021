@@ -1,0 +1,41 @@
+  
+html {
+    scroll-behavior: smooth;
+}
+  
+* {
+    box-sizing:border-box;
+}
+  
+
+body {
+    margin:0;
+    padding:0;
+}
+header {
+    width:100%;
+    margin:auto;
+}
+.header__top {
+    display: flex;
+    width:1400px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+.header__center {
+    margin: auto;
+}
+
+ul {
+    display:flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    margin:0 40px;
+}
+nav ul li:nth-last-of-type(1) {
+    margin-right:0;
+}
