@@ -1,4 +1,12 @@
-  
+@font-face {
+    font-family: 'Raleway';
+    src: url(../font/static/Raleway-ExtraBold.ttf) format('truetype');
+    
+}
+@font-face {
+    font-family: 'Raleway_p';
+    src: url(../font/Raleway-VariableFont_wght.ttf) format('truetype');
+}
 html {
     scroll-behavior: smooth;
 }
@@ -6,26 +14,58 @@ html {
 * {
     box-sizing:border-box;
 }
-  
+
+h1 {
+    font-family: 'Raleway';
+    font-size:1.3em;
+}
+p, button {
+    font-family: 'Raleway_p';
+    font-size:1em;
+    font-weight:bold;
+}
 
 body {
     margin:0;
     padding:0;
 }
+/* Header */
 header {
     width:100%;
     margin:auto;
 }
 .header__top {
+    padding-top:40px;
     display: flex;
     width:1400px;
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 80%;
+    width: 90%;
+    padding-bottom: 30px;
 }
 .header__center {
     margin: auto;
+}
+
+.header__find, .header__search, .header__filter {
+    margin:auto;
+    width:90%;
+}
+.header__search {
+    display: flex;
+    margin-bottom: 30px;
+}
+.header__search button {
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.header__filter div {
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    font-family: 'Raleway_p';
+    font-weight: bold;
 }
 
 ul {
@@ -35,7 +75,50 @@ ul {
 li {
     list-style: none;
     margin:0 40px;
+    font-family: 'Raleway_p';
+    font-weight:bold;
+}
+a {
+    text-decoration:none;
+    color:initial;
+}
+a:hover {
+    color:#0065FC;
 }
 nav ul li:nth-last-of-type(1) {
     margin-right:0;
+}
+
+input {
+    padding:10px 15px;
+    
+    outline:none;
+    border:1px solid #f2f2f2;
+}
+input::placeholder {
+    
+    color:#000;
+    font-family:'Raleway_p';
+    font-weight:bold;
+}
+button {
+    padding:10px;
+    background:#0065FC;
+    color:white;
+    outline:none;
+    border:0;
+}
+.header__search div {
+    width: 40px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#f2f2f2;
+    border-top-left-radius:9px;
+    border-bottom-left-radius:9px;
+}
+.header__search div img {
+    width: 40px;
+    height: 20px;
 }
