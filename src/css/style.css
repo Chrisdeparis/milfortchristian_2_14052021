@@ -19,10 +19,10 @@ h1 {
     font-family: 'Raleway';
     font-size:1.3em;
 }
-p, button, div {
+p, button, .info__p {
     font-family: 'Raleway_p';
     font-size:1em;
-    /* font-weight:bold; */
+    font-weight:bold;
 }
 
 body {
@@ -132,10 +132,8 @@ button {
 }
 
 .filter__icon img {
-
     height: 20px;
     color:blue;
-
 }
 
 .filter__item {
@@ -147,6 +145,7 @@ button {
     font-family:'Raleway';
     border-radius:25px;
     padding-right: 15px;
+    cursor:pointer;
 }
 .filter__one {
     font-family:'Raleway';
@@ -196,6 +195,55 @@ button {
     align-items: center;
 }
 
-.svg__col {
-    fill:blue;
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.grid-container-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #f2f2f2;
+  color: #444;
+  width:80%;
+  padding-top:80px;
+  padding-left:30px;
+  padding-right: 30px;
+  border-radius:20px;
+  margin-right:70px;
+}
+.grid-container-1 .hebergements, .grid-container-2 .populaire {
+    border-radius:20px;
+}
+.grid-container-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    background-color: #f2f2f2;
+    color: #444;
+    margin:auto;
+    margin-top:0;
+    width:30%;
+    padding-top:80px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:20px;
+    margin-left:70px;
+
+  }
+
+.hebergements {
+    background:pink;
+    height:200px;
+}
+
+.populaire {
+    background:violet;
+    height:150px;
+}
+section {
+    display:flex;
+    width:90%;
+    margin:auto;
+    margin-top:50px;
 }
