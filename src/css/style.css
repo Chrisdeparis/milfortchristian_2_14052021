@@ -223,7 +223,10 @@ button {
 section.populaires.populaires__img1 {
     border-radius:20px;
     height:150px;
+    margin-bottom:30px;
+    margin-left: 0px;
 }
+.group.grid-container-2 { margin-bottom:0;}
 .grid-container-2{
     display: grid;
     grid-template-columns: 1fr;
@@ -273,12 +276,15 @@ h1.hebergement__title, h1.populaire__title {
     border-top: 2px solid #fff;
     border-left: 2px solid #fff;
     border-right: 2px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .populaire__description {
     display:flex;
     justify-content: flex-end;
     border-radius:20px;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid #fff;
 }
 .description__group {
     background:white;
@@ -287,6 +293,13 @@ h1.hebergement__title, h1.populaire__title {
     border-bottom-right-radius:20px;
     padding-bottom:10px;
 
+}
+.populaire__top {
+    display:flex;
+    justify-content:space-between;
+}
+.populaire__top img {
+    width: 30px;
 }
 .populaire__group {
     background:#fff;
@@ -300,7 +313,7 @@ h1.hebergement__title, h1.populaire__title {
     padding-bottom: 10px;
     padding-right: 10px;
 }
-
+.populaires.populaires__img1
 .populaire__wd {
     width:80%;
 }
@@ -334,6 +347,7 @@ section {
     margin-top:30px;
     font-weight:bold;
 }
+
 
 /* Grid section */
 /*  SECTIONS  */
