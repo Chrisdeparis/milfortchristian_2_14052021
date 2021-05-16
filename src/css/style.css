@@ -545,7 +545,11 @@ section {
 	float:left;
 	margin: 1% 0 1% 1.6%;
 }
+
+
 .col:first-child { margin-left: 0; }
+
+
 
 /*  GROUPING  */
 .group:before,
@@ -558,13 +562,18 @@ section {
 .span_2_of_3 { width: 66.13%; }
 .span_1_of_3 { width: 32.26%; }
 
+ 
 
-
-
+/* OVER 1000 PIXELS */
+@media only screen and (min-width:1000px) {
+    #activites .col:first-child {margin-left:0;}
+    #activites .col.span_1_of_4:last-child { margin-right:0;}
+    #activites .col {  margin: 1% 0 1% 5%;}
+}
 
 /*  GO 50% WIDTH BELOW 1000 PIXELS */
 @media only screen and (max-width: 1000px) {
-	.col {  margin: 1% 0 1% 0%; }
+	.col {  margin: 1% 1% 1% 1%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 33%; }
     .mt-50 {display:flex; flex-direction:column; width:100%;}
     .grid-container-2 { width:100%; margin:0 auto;}
@@ -609,5 +618,17 @@ section {
 }
 /* RESPONSIVE for Pixel 2 */
 @media only screen and (max-width:411px) {
-    .container {width:411px;}
+    .container {width:100%;}
+}
+/* RESPONSIVE IPhone X */
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (max-device-width: 812px)
+
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  .container {width:100%;}
+
 }
