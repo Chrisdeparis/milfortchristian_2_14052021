@@ -299,9 +299,10 @@ h1.hebergement__title {
     height:200px;
     display:block;
     width:100%;
-    background-repeat:no-repeat;
-    background-position: initial;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
     
 .hebergements__img__port {
@@ -309,9 +310,10 @@ h1.hebergement__title {
     height:200px;
     display:block;
     width:100%;
-    background-repeat:no-repeat;
-    background-position: initial;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .hebergements__img__mouette {
@@ -319,18 +321,20 @@ h1.hebergement__title {
     height:200px;
     display:block;
     width:100%;
-    background-repeat:no-repeat;
-    background-position: initial;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;   
 }
 .hebergements__img__mer {
     background:url('../images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg');
     height:200px;
     display:block;
     width:100%;
-    background-repeat:no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;  
 }
 .hebergements__img__panier {
     background:url('../images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');
@@ -413,9 +417,7 @@ h1.hebergement__title {
     margin-top:5px;
 }
 
-.description__icon {
-    margin-left:10px;
-}
+.populaire__group .description__icon {  margin-left:10px;}
 .populaires.populaires__img__eau
 .populaire__wd, .populaires.populaires__img__
 .populaire__wd, .populaires.populaires__img__bleu
