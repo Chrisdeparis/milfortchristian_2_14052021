@@ -221,7 +221,7 @@ button {
     display:flex;
 }
 
-#pop.populaires {  width:100%;}
+.populaires .populaire__description {  width:100%; margin:0;}
 .populaire__wd {
     width:80%;
 }
@@ -236,27 +236,27 @@ button {
     background-size: cover;
     background-position:center;
 }
-section.populaires.populaires__img__eau {
+.populaires__img__eau {
     background:url('../images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg');
     padding-top:0px;
-    border-radius:20px;
-    margin-bottom:10px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
     margin-left: 0px;
-    width:100%;
+    width:40%;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position:left;
+    background-size: cover;
+    background-position:center;
 }
-section.populaires.populaires__img__bleu {
+.populaires__img__bleu {
     background:url('../images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
     padding-top:0px;
-    border-radius:20px;
-    margin-bottom:10px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
     margin-left: 0px;
-    width:100%;
+    width:40%;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position:left;
+    background-size: cover;
+    background-position:center;
 }
 .group.grid-container-2 { margin-bottom:0;}
 .grid-container-2{
@@ -403,6 +403,18 @@ h1.hebergement__title {
     border-bottom-right-radius:20px;
     padding: 0px 10px;
     width: 60%;
+}
+.populaire__group .populaire__wd p  {
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:0;
+}
+.populaire__group .populaire__wd p:nth-child(2) {
+    margin-top:5px;
+}
+
+.description__icon {
+    margin-left:10px;
 }
 .populaires.populaires__img__eau
 .populaire__wd, .populaires.populaires__img__
