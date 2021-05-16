@@ -220,17 +220,29 @@ button {
     border-radius:20px;
     display:flex;
 }
-section.populaires.populaires__img1 {
+section.populaires.populaires__img__soleil {
     background:url('../images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
     padding-top:0px;
     border-radius:20px;
-    height:150px;
+    
     margin-bottom:30px;
     margin-left: 0px;
     width:100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center center;
+    background-size: contain;
+    background-position:left;
+}
+section.populaires.populaires__img__eau {
+    background:url('../images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg');
+    padding-top:0px;
+    border-radius:20px;
+    
+    margin-bottom:30px;
+    margin-left: 0px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:left;
 }
 .group.grid-container-2 { margin-bottom:0;}
 .grid-container-2{
@@ -312,8 +324,8 @@ h1.hebergement__title {
     display:block;
     width:100%;
     background-repeat:no-repeat;
-    background-position: initial;
-    background-size: contain;
+    background-position:bottom;
+    background-size: cover;
 }
 .hebergements__img__amina {
     background:url('../images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
@@ -375,13 +387,12 @@ h1.hebergement__title {
     justify-content: space-between;
     border-top-right-radius: 20px;
     border-bottom-right-radius:20px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    padding: 0px 10px;
+    width: 60%;
 }
 .populaires.populaires__img1
 .populaire__wd {
-    width:80%;
+    width:90%;
 }
 .populaire__price, .hebergement__price {
     font-size:0.9em;
