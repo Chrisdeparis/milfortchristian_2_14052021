@@ -833,6 +833,9 @@ section.hebergements {
   button.mobile img {
     width:20px;
   }
+  /* Activites */
+  .vieuxPort, .frioul, .pomegues, .calanques, .garde, .longchamp {height:210px;}
+  .col.span_1_of_4 { margin:15px 0;}
 }
 /* RESPONSIVE for Pixel 2 */
 @media only screen and (max-width: 411px) {
