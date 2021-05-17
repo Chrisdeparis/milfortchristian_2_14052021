@@ -230,8 +230,8 @@ button {
 .populaires__img__soleil {
   background: url("../images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
   padding-top: 0px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   margin-left: 0px;
   width: 40%;
   background-repeat: no-repeat;
@@ -241,8 +241,8 @@ button {
 .populaires__img__eau {
   background: url("../images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg");
   padding-top: 0px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   margin-left: 0px;
   width: 40%;
   background-repeat: no-repeat;
@@ -252,8 +252,8 @@ button {
 .populaires__img__bleu {
   background: url("../images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
   padding-top: 0px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   margin-left: 0px;
   width: 40%;
   background-repeat: no-repeat;
@@ -306,8 +306,8 @@ h1.hebergement__title {
   width: 100%;
   background-position: center;
   background-size: cover;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .hebergements__img__port {
@@ -317,8 +317,8 @@ h1.hebergement__title {
   width: 100%;
   background-position: center;
   background-size: cover;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .hebergements__img__mouette {
@@ -328,8 +328,8 @@ h1.hebergement__title {
   width: 100%;
   background-position: center;
   background-size: cover;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 .hebergements__img__mer {
   background: url("../images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
@@ -338,8 +338,8 @@ h1.hebergement__title {
   width: 100%;
   background-position: center;
   background-size: cover;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 .hebergements__img__panier {
   background: url("../images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
@@ -348,8 +348,8 @@ h1.hebergement__title {
   width: 100%;
   background-position: center;
   background-size: cover;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 .hebergements__img__amina {
   background: url("../images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
@@ -358,8 +358,8 @@ h1.hebergement__title {
   width: 100%;
   background-position: center;
   background-size: cover;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 /* .populaires__img1 {
