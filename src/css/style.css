@@ -809,6 +809,10 @@ section.hebergements {
   .header__top {
     flex-direction: column;
   }
+
+  .header__top img {
+    margin-top:30px;
+  }
 }
 
 @media only screen and (max-width: 414px) {
