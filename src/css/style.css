@@ -622,29 +622,7 @@ section.hebergements {
 .span_2_of_3 { width: 66.13%; }
 .span_1_of_3 { width: 32.26%; }
 
-.header__mobile {
-    display: flex;
-    justify-content: space-around;
-    margin: 30px;
-    margin-left: -30px;
-    align-items: center;
-    margin-bottom: 15px;
-}
-.header__mobile__r {
-    position: relative;
-    left: 60px;
-}
-.header__mobile__r p a {
-    color:#0065FC;
-}
-.header__mobile.second {
-    margin:0;
-    padding-bottom: 0;
-    border-bottom: 2px solid #f2F2F2;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 40px;
-}
+
 
 /* OVER 1000 PIXELS */
 @media only screen and (min-width:1000px) {
@@ -697,11 +675,37 @@ section.hebergements {
     }
 
 }
+@media only screen and (min-width:376px) {
+    .header__mobile, .header__mobile.second {display:none;}
+}
 
 /* RESPONSIVE for iPhone 6/7/8 */
 @media only screen and (max-width:375px) {
     .container {width:100%;}
     .header__top {display:none;}
+    .header__mobile {
+        display: flex;
+        justify-content: space-around;
+        margin: 30px;
+        margin-left: -30px;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .header__mobile__r {
+        position: relative;
+        left: 60px;
+    }
+    .header__mobile__r p a {
+        color:#0065FC;
+    }
+    .header__mobile.second {
+        margin:0;
+        padding-bottom: 0;
+        border-bottom: 3px solid #f2F2F2;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
 }
 /* RESPONSIVE for Pixel 2 */
 @media only screen and (max-width:411px) {
