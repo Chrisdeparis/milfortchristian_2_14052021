@@ -106,6 +106,10 @@ li.nav__active a {
   position: relative;
   bottom: 3px;
 }
+li.link__color a {
+  color: #0065fc;
+  font-weight:bold;
+}
 input {
   padding: 15px;
   font-family: "Raleway";
@@ -452,6 +456,9 @@ h1.hebergement__title {
   font-size: 0.9em;
   font-weight: normal;
   padding: 0 !important;
+}
+.hebergement__price span {
+  font-weight:bold;
 }
 .description__icon img {
   height: 10px;
