@@ -524,7 +524,7 @@ section {
   justify-content: flex-end;
   flex-direction: column;
   background: #fff;
-  width: 260px;
+  min-width: 260px;
   padding-left: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -745,6 +745,8 @@ section.hebergements {
   }
 }
 
+
+
 @media only screen and (max-width: 414px) {
   nav {
     display: none;
@@ -758,7 +760,7 @@ section.hebergements {
   .header__search,
   .act-50 {
     justify-content: center;
-    text-align: center;
+    
   }
   .vieuxPort__bt,
   .Pomegues__bt,
@@ -773,6 +775,9 @@ section.hebergements {
   .header__mobile,
   .header__mobile.second {
     display: none;
+  }
+  button.mobile {
+    display:none;
   }
 }
 
@@ -834,8 +839,25 @@ section.hebergements {
     width:20px;
   }
   /* Activites */
-  .vieuxPort, .frioul, .pomegues, .calanques, .garde, .longchamp {height:210px;}
+  .vieuxPort, .frioul, .Pomegues, .calanques, .garde, .longchamp {height:170px; width:300px;}
   .col.span_1_of_4 { margin:15px 0;}
+  .vieuxPort__bt,
+.Pomegues__bt,
+.frioul__bt,
+.calanques__bt,
+.garde__bt,
+.longchamp__bt {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background: #fff;
+  min-width: 300px;
+  padding-left: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.grid-container-3 {margin:0;}
+.act-50 {width:85%;}
 }
 /* RESPONSIVE for Pixel 2 */
 @media only screen and (max-width: 411px) {
