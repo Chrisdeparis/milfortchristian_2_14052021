@@ -36,7 +36,6 @@ header {
   margin: auto;
 }
 .header__top {
-  
   display: flex;
   width: 1400px;
   justify-content: center;
@@ -44,6 +43,11 @@ header {
   margin: auto;
   width: 90%;
   padding-bottom: 30px;
+}
+
+.header__top img {
+  position: relative;
+  bottom: 13px;
 }
 .header__center {
   margin: auto;
@@ -96,10 +100,10 @@ nav ul li:nth-last-of-type(1) {
   margin-right: 0;
 }
 nav ul {
-  margin-top:0;
+  margin-top: 0;
 }
 li.nav__active {
-  border-top:3px solid #0065fc;
+  border-top: 3px solid #0065fc;
 }
 li.nav__active a {
   color: #0065fc;
@@ -108,7 +112,7 @@ li.nav__active a {
 }
 li.link__color a {
   color: #0065fc;
-  font-weight:bold;
+  font-weight: bold;
 }
 input {
   padding: 15px;
@@ -161,6 +165,8 @@ button {
   border-radius: 25px;
   padding-right: 15px;
   cursor: pointer;
+  width: 33%;
+  margin:0 5px;
 }
 .filter__one {
   font-family: "Raleway";
@@ -457,8 +463,11 @@ h1.hebergement__title {
   font-weight: normal;
   padding: 0 !important;
 }
+.populaire__price span {
+  font-weight: bold;
+}
 .hebergement__price span {
-  font-weight:bold;
+  font-weight: bold;
 }
 .description__icon img {
   height: 10px;
@@ -610,6 +619,24 @@ section {
   padding: 6px 0;
 }
 
+.section.group.filter {
+  margin-left: 5%;
+  display:none;
+}
+.section.group.filter .col.span_1_of_2 {
+  margin-left: 0px;
+}
+
+.col.span_1_of_2 {
+  background: orange;
+  margin-left: 10%;
+  margin-right: 0;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 /* .row__grid {
     display:flex;
     justify-content:space-between;
@@ -649,6 +676,29 @@ section.hebergements {
 }
 .group {
   zoom: 1; /* For IE 6/7 */
+}
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+  width: 100%;
+}
+.span_1_of_2 {
+  width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .span_2_of_2,
+  .span_1_of_2 {
+    width: 100%;
+  }
 }
 
 /*  GRID OF THREE  */
@@ -762,8 +812,6 @@ section.hebergements {
   }
 }
 
-
-
 @media only screen and (max-width: 414px) {
   nav {
     display: none;
@@ -777,7 +825,6 @@ section.hebergements {
   .header__search,
   .act-50 {
     justify-content: center;
-    
   }
   .vieuxPort__bt,
   .Pomegues__bt,
@@ -794,7 +841,7 @@ section.hebergements {
     display: none;
   }
   button.mobile {
-    display:none;
+    display: none;
   }
 }
 /* Responsive for REDMI note 8 Pro */
@@ -828,23 +875,23 @@ section.hebergements {
     margin-bottom: 40px;
   }
   .header__mobile.second div {
-    width:50%;
+    width: 50%;
   }
   .header__mobile.second div p {
-    text-align:center;
+    text-align: center;
   }
   .header__mobile.second .active {
-    color:#0065fc;
+    color: #0065fc;
     border-bottom: 3px solid #0065fc;
   }
   .active p a {
-    color:#0065fc;
+    color: #0065fc;
   }
   .header__mobile.second .not-active {
     border-bottom: 3px solid #f2f2f2;
   }
   button.desktop {
-    display:none;
+    display: none;
   }
   button.mobile {
     border-radius: 9px;
@@ -852,28 +899,42 @@ section.hebergements {
     right: 5px;
   }
   button.mobile img {
-    width:20px;
+    width: 20px;
   }
   /* Activites */
-  .vieuxPort, .frioul, .Pomegues, .calanques, .garde, .longchamp {height:170px; width:300px;}
-  .col.span_1_of_4 { margin:15px 0;}
+  .vieuxPort,
+  .frioul,
+  .Pomegues,
+  .calanques,
+  .garde,
+  .longchamp {
+    height: 170px;
+    width: 300px;
+  }
+  .col.span_1_of_4 {
+    margin: 15px 0;
+  }
   .vieuxPort__bt,
-.Pomegues__bt,
-.frioul__bt,
-.calanques__bt,
-.garde__bt,
-.longchamp__bt {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  background: #fff;
-  min-width: 300px;
-  padding-left: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-.grid-container-3 {margin:0;}
-.act-50 {width:85%;}
+  .Pomegues__bt,
+  .frioul__bt,
+  .calanques__bt,
+  .garde__bt,
+  .longchamp__bt {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: #fff;
+    min-width: 300px;
+    padding-left: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .grid-container-3 {
+    margin: 0;
+  }
+  .act-50 {
+    width: 85%;
+  }
 }
 
 /* RESPONSIVE for iPhone 6/7/8 */
@@ -907,23 +968,23 @@ section.hebergements {
     margin-bottom: 40px;
   }
   .header__mobile.second div {
-    width:50%;
+    width: 50%;
   }
   .header__mobile.second div p {
-    text-align:center;
+    text-align: center;
   }
   .header__mobile.second .active {
-    color:#0065fc;
+    color: #0065fc;
     border-bottom: 3px solid #0065fc;
   }
   .active p a {
-    color:#0065fc;
+    color: #0065fc;
   }
   .header__mobile.second .not-active {
     border-bottom: 3px solid #f2f2f2;
   }
   button.desktop {
-    display:none;
+    display: none;
   }
   button.mobile {
     border-radius: 9px;
@@ -931,28 +992,42 @@ section.hebergements {
     right: 5px;
   }
   button.mobile img {
-    width:20px;
+    width: 20px;
   }
   /* Activites */
-  .vieuxPort, .frioul, .Pomegues, .calanques, .garde, .longchamp {height:170px; width:300px;}
-  .col.span_1_of_4 { margin:15px 0;}
+  .vieuxPort,
+  .frioul,
+  .Pomegues,
+  .calanques,
+  .garde,
+  .longchamp {
+    height: 170px;
+    width: 300px;
+  }
+  .col.span_1_of_4 {
+    margin: 15px 0;
+  }
   .vieuxPort__bt,
-.Pomegues__bt,
-.frioul__bt,
-.calanques__bt,
-.garde__bt,
-.longchamp__bt {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  background: #fff;
-  min-width: 300px;
-  padding-left: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-.grid-container-3 {margin:0;}
-.act-50 {width:85%;}
+  .Pomegues__bt,
+  .frioul__bt,
+  .calanques__bt,
+  .garde__bt,
+  .longchamp__bt {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: #fff;
+    min-width: 300px;
+    padding-left: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .grid-container-3 {
+    margin: 0;
+  }
+  .act-50 {
+    width: 85%;
+  }
 }
 /* RESPONSIVE for Pixel 2 */
 @media only screen and (max-width: 411px) {
