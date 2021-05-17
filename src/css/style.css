@@ -788,7 +788,7 @@ section.hebergements {
     padding-left: 0;
   }
 }
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 394px) {
   .header__mobile,
   .header__mobile.second {
     display: none;
