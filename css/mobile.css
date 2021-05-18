@@ -99,7 +99,7 @@
     .span_3_of_3,
     .span_2_of_3,
     .span_1_of_3 {
-      width: 50%;
+      width: 48%;
     }
   }
   /*  GO FULL WIDTH BELOW 600 PIXELS */
@@ -340,7 +340,9 @@
     }
     .col.span_1_of_4 {
       margin: 15px 0;
+      width:50%;
     }
+    
     .vieuxPort__bt,
     .Pomegues__bt,
     .frioul__bt,
@@ -351,7 +353,7 @@
       justify-content: flex-end;
       flex-direction: column;
       background: #fff;
-      min-width: 300px;
+      min-width: 100%;
       padding-left: 20px;
       border-bottom-right-radius: 20px;
       border-bottom-left-radius: 20px;
