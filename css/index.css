@@ -250,6 +250,7 @@ button {
   height: 150px;
   margin-top: 13px;
   margin-bottom: 25px;
+  cursor:pointer;
 }
 
 .populaires .populaire__description {
@@ -547,6 +548,7 @@ section {
 .calanques,
 .garde,
 .longchamp {
+  cursor:pointer;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -675,6 +677,7 @@ section {
 
 section.hebergements {
   margin-left: 0;
+  cursor:pointer;
 }
 
 .col:first-child,
