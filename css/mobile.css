@@ -1,0 +1,372 @@
+div.header__find {
+    position:relative;
+    bottom:0;
+}
+.header__search {
+    position:relative;
+    bottom:0;
+}
+div.header__filter {
+    position:relative;
+    bottom:0;
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 767px) {
+    .col {
+      margin: 1% 0 1% 0%;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .span_2_of_2,
+    .span_1_of_2 {
+      width: 100%;
+    }
+  }
+  
+  /*  GRID OF THREE  */
+  .span_3_of_3 {
+    width: 100%;
+  }
+  .span_2_of_3 {
+    width: 66.13%;
+  }
+  .span_1_of_3 {
+    width: 32.26%;
+  }
+  
+  /* OVER 1000 PIXELS */
+  @media only screen and (min-width: 1000px) {
+    #activites .col:first-child {
+      margin-left: 0;
+    }
+    #activites .col.span_1_of_4:last-child {
+      margin-right: 0;
+    }
+    #activites .col {
+      margin: 1% 0 1% 5%;
+    }
+    #hb__left .col.span_1_of_3:first-child {
+      margin-left: 0;
+    }
+    #hb__left .col.span_1_of_3:last-child {
+      margin-right: 0;
+    }
+    #hb__left .col {
+      margin: 0;
+    }
+  }
+  
+  /*  GO 50% WIDTH BELOW 1000 PIXELS */
+  @media only screen and (max-width: 767px) {
+    .col {
+      margin: 1% 1% 1% 1%;
+    }
+    .span_3_of_3,
+    .span_2_of_3,
+    .span_1_of_3 {
+      width: 33%;
+    }
+    .mt-50 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .grid-container-2 {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .header__center {
+      display: none;
+    }
+    .section.group.grid-container-1 {
+      width: 100%;
+    }
+  }
+  
+  /*  GO 50% WIDTH BELOW 750 PIXELS */
+  @media only screen and (max-width: 767px) {
+    .section.group.grid-container-1 {
+      width: 100%;
+    }
+    .span_3_of_3,
+    .span_2_of_3,
+    .span_1_of_3 {
+      width: 50%;
+    }
+  }
+  /*  GO FULL WIDTH BELOW 600 PIXELS */
+  @media only screen and (max-width: 600px) {
+    .section.group.grid-container-1 {
+      width: 100%;
+    }
+    .col {
+      margin: 1% 0 1% 0%;
+    }
+    .span_3_of_3,
+    .span_2_of_3,
+    .span_1_of_3 {
+      width: 100%;
+    }
+    .mt-50 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .grid-container-2 {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .grid-container-3 {
+      width: 260px;
+      margin: 0 auto;
+    }
+    .header__center {
+      display: none;
+    }
+    section {
+      width: 100%;
+    }
+    .footer {
+      margin-left: 30px;
+    }
+    .header__top {
+      flex-direction: column;
+    }
+  
+    .header__top img {
+      margin-top:30px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    nav {
+      display: none;
+    }
+    .row.filter__resp {
+      flex-direction: column;
+    }
+    .header__filter div.row {
+      width: initial;
+    }
+    .header__search,
+    .act-50 {
+      justify-content: center;
+    }
+    .vieuxPort__bt,
+    .Pomegues__bt,
+    .frioul__bt,
+    .calanques__bt,
+    .garde__bt,
+    .longchamp__bt {
+      padding-left: 0;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .header__mobile,
+    .header__mobile.second {
+      display: none;
+    }
+    button.mobile {
+      display: none;
+    }
+  }
+  /* Responsive for REDMI note 8 Pro */
+  @media only screen and (max-width: 767px) {
+    .container {
+      width: 100%;
+    }
+    .header__top {
+      display: none;
+    }
+    .header__mobile {
+      display: flex;
+      justify-content: space-around;
+      margin: 30px;
+      margin-left: -30px;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    .header__mobile__r {
+      position: relative;
+      left: 60px;
+    }
+    .header__mobile__r p a {
+      color: #0065fc;
+    }
+    .header__mobile.second {
+      margin: 0;
+      padding-bottom: 0;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 40px;
+    }
+    .header__mobile.second div {
+      width: 50%;
+    }
+    .header__mobile.second div p {
+      text-align: center;
+    }
+    .header__mobile.second .active {
+      color: #0065fc;
+      border-bottom: 3px solid #0065fc;
+    }
+    .active p a {
+      color: #0065fc;
+    }
+    .header__mobile.second .not-active {
+      border-bottom: 3px solid #f2f2f2;
+    }
+    button.desktop {
+      display: none;
+    }
+    button.mobile {
+      border-radius: 9px;
+      position: relative;
+      right: 5px;
+    }
+    button.mobile img {
+      width: 20px;
+    }
+    /* Activites */
+    .vieuxPort,
+    .frioul,
+    .Pomegues,
+    .calanques,
+    .garde,
+    .longchamp {
+      height: 170px;
+      width: 300px;
+    }
+    .col.span_1_of_4 {
+      margin: 15px 0;
+    }
+    .vieuxPort__bt,
+    .Pomegues__bt,
+    .frioul__bt,
+    .calanques__bt,
+    .garde__bt,
+    .longchamp__bt {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      background: #fff;
+      min-width: 300px;
+      padding-left: 20px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .grid-container-3 {
+      margin: 0;
+    }
+    .act-50 {
+      width: 85%;
+    }
+  }
+  
+  /* RESPONSIVE for iPhone 6/7/8 */
+  @media only screen and (max-width: 767px) {
+    .container {
+      width: 100%;
+    }
+    .header__top {
+      display: none;
+    }
+    .header__mobile {
+      display: flex;
+      justify-content: space-around;
+      margin: 30px;
+      margin-left: -30px;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    .header__mobile__r {
+      position: relative;
+      left: 60px;
+    }
+    .header__mobile__r p a {
+      color: #0065fc;
+    }
+    .header__mobile.second {
+      margin: 0;
+      padding-bottom: 0;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 40px;
+    }
+    .header__mobile.second div {
+      width: 50%;
+    }
+    .header__mobile.second div p {
+      text-align: center;
+    }
+    .header__mobile.second .active {
+      color: #0065fc;
+      border-bottom: 3px solid #0065fc;
+    }
+    .active p a {
+      color: #0065fc;
+    }
+    .header__mobile.second .not-active {
+      border-bottom: 3px solid #f2f2f2;
+    }
+    button.desktop {
+      display: none;
+    }
+    button.mobile {
+      border-radius: 9px;
+      position: relative;
+      right: 5px;
+    }
+    button.mobile img {
+      width: 20px;
+    }
+    /* Activites */
+    .vieuxPort,
+    .frioul,
+    .Pomegues,
+    .calanques,
+    .garde,
+    .longchamp {
+      height: 170px;
+      width: 300px;
+    }
+    .col.span_1_of_4 {
+      margin: 15px 0;
+    }
+    .vieuxPort__bt,
+    .Pomegues__bt,
+    .frioul__bt,
+    .calanques__bt,
+    .garde__bt,
+    .longchamp__bt {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      background: #fff;
+      min-width: 300px;
+      padding-left: 20px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .grid-container-3 {
+      margin: 0;
+    }
+    .act-50 {
+      width: 85%;
+    }
+  }
+  /* RESPONSIVE for Pixel 2 */
+  @media only screen and (max-width: 411px) {
+    .container {
+      width: 100%;
+    }
+  }
+  /* RESPONSIVE IPhone X */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .container {
+      width: 100%;
+    }
+  }
+  
