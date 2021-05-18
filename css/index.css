@@ -693,7 +693,7 @@ section.hebergements {
 }
 
 @media screen and (min-width: 768px) {
-    .header__find {
+    div.header__find {
       position: relative;
       bottom: 70px;
   }
