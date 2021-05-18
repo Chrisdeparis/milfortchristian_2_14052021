@@ -19,6 +19,9 @@
         position:relative;
         bottom:0;
     }
+    .filter__item {
+        margin:5px 0;
+    }
   }
   
   @media only screen and (max-width: 767px) {
@@ -333,7 +336,7 @@
     .garde,
     .longchamp {
       height: 170px;
-      width: 300px;
+      width: 100%;
     }
     .col.span_1_of_4 {
       margin: 15px 0;
