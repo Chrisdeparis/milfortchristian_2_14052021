@@ -1,11 +1,4 @@
-@font-face {
-  font-family: "Raleway";
-  src: url(../font/static/Raleway-ExtraBold.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Raleway_p";
-  src: url(../font/Raleway-VariableFont_wght.ttf) format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 html {
   scroll-behavior: smooth;
 }
@@ -15,13 +8,13 @@ html {
 }
 
 h1 {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   font-size: 1.3em;
 }
 p,
 button,
 .info__p {
-  font-family: "Raleway_p";
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   font-weight: bold;
 }
@@ -59,6 +52,10 @@ header {
   margin: auto;
   width: 90%;
 }
+.header__find {
+  position: relative;
+    bottom: 30px;
+}
 .header__search {
   display: flex;
   margin-bottom: 30px;
@@ -73,7 +70,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 70%;
-  font-family: "Raleway_p";
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   align-items: center;
   align-self: center;
@@ -86,7 +83,7 @@ ul {
 li {
   list-style: none;
   padding: 50px 30px;
-  font-family: "Raleway_p";
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
 a {
@@ -116,7 +113,7 @@ li.link__color a {
 }
 input {
   padding: 15px;
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   outline: none;
   border: 1px solid #f2f2f2;
@@ -127,7 +124,7 @@ input::placeholder {
   font-weight: bold;
 }
 button {
-  font-family: "Raleway_p";
+  font-family: 'Raleway', sans-serif;
   padding: 10px;
   background: #0065fc;
   color: white;
@@ -161,14 +158,14 @@ button {
   justify-content: center;
   align-items: center;
   align-self: center;
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   border-radius: 25px;
   padding-right: 15px;
   cursor: pointer;
   margin:0 5px;
 }
 .filter__one {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
 }
 .filter__item:nth-last-child() {
   width: 100px;
