@@ -250,13 +250,13 @@ button {
   height: 150px;
   margin-top: 13px;
   margin-bottom: 25px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .populaires .populaire__description {
   width: 100%;
   margin: 0;
-  min-height:150px;
+  min-height: 150px;
 }
 .populaire__wd {
   width: 80%;
@@ -548,7 +548,7 @@ section {
 .calanques,
 .garde,
 .longchamp {
-  cursor:pointer;
+  cursor: pointer;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -677,7 +677,7 @@ section {
 
 section.hebergements {
   margin-left: 0;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .col:first-child,
