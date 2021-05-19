@@ -219,6 +219,8 @@ button {
   width: 90%;
   display: flex;
   align-items: center;
+  position:relative;
+  bottom:30px;
 }
 
 .container {
@@ -500,7 +502,7 @@ section {
   margin: auto;
 }
 .mt-50 {
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
 .row.afficher__plus p {
@@ -508,11 +510,7 @@ section {
   font-weight: bold;
 }
 
-/* Activités */
-/* .section.group.grid-container-3 { 
-    display:flex;
-    justify-content: space-between;
-} */
+
 .act-50 {
   margin-top: 50px;
   display: flex;
