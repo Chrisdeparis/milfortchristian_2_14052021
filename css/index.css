@@ -41,6 +41,8 @@ header {
 .header__top img {
   position: relative;
   bottom: 13px;
+  width: 97px;
+  height: 45px;
 }
 .header__center {
   margin: auto;
