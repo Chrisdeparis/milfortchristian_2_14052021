@@ -14,9 +14,7 @@
   #activites .col.span_1_of_4 {
     margin: 1% 0 1% 8%;
   }
-  section#activites div.section.group.grid-container-3 div.col.span_1_of_4:nth-child(4) {
-    margin-left:36%;
-  }
+  
 }
 @media only screen and (min-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   /* Styles pour cette Media Queries */
