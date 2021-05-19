@@ -60,7 +60,7 @@ header {
 }
 .header__search {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   position: relative;
   bottom: 65px;
 }
@@ -504,7 +504,7 @@ section {
   margin: auto;
 }
 .mt-50 {
-  margin-top: 5px;
+  margin-top: -8px;
 }
 
 .row.afficher__plus p {
