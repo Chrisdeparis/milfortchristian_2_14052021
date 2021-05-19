@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
   font-size: 1.3em;
 }
@@ -252,8 +252,8 @@ button {
 
 .populaires {
   height: 150px;
-  margin-top: 13px;
-  margin-bottom: 25px;
+  margin-top: 28px;
+  margin-bottom: 16px;
   cursor: pointer;
 }
 
@@ -327,13 +327,13 @@ button {
   bottom: 26px;
 } */
 
-h1.populaire__title {
+h3.populaire__title {
   color: #000;
   margin-top: 30px;
 }
-h1.hebergement__title {
-  margin-bottom: 0px;
-  margin-top: 20px;
+h2.hebergement__title {
+  margin-bottom: 16px;
+    margin-top: 7px;
 }
 
 .hebergements__img__cannebiere {
@@ -430,9 +430,9 @@ h1.hebergement__title {
   padding-bottom: 10px;
   padding-top: 10px;
 }
-.description__group p {
+.description__group h4 {
   margin: 6px 0px;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 .populaire__top {
   position: relative;
@@ -521,12 +521,10 @@ section {
   width: 90%;
   margin-bottom: 50px;
 }
-.act-50 h1 {
+.act-50 h4 {
   margin-top: 30px;
 }
-/* #hebergements {
-  /* height:100vh; */
-} */
+
 .vieuxPort {
   background: url("../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
   height: 400px;
@@ -624,7 +622,7 @@ section {
   width: 100%;
   height: auto;
 }
-.footer h1 {
+.footer h5 {
   font-size: 1em;
 }
 .footer ul {
