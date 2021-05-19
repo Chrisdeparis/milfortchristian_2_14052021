@@ -340,7 +340,7 @@ h1.hebergement__title {
   background: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
   height: 200px;
   display: block;
-  width: 193px;
+  width: 100%;
   background-position: center;
   background-size: cover;
   border-top-right-radius: 15px;
@@ -351,7 +351,7 @@ h1.hebergement__title {
   background: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
   height: 200px;
   display: block;
-  width: 193px;
+  width: 100%;
   background-position: center;
   background-size: cover;
   border-top-right-radius: 15px;
@@ -362,7 +362,7 @@ h1.hebergement__title {
   background: url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
   height: 200px;
   display: block;
-  width: 193px;
+  width: 100%;
   background-position: center;
   background-size: cover;
   border-top-right-radius: 15px;
@@ -372,7 +372,7 @@ h1.hebergement__title {
   background: url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
   height: 200px;
   display: block;
-  width: 193px;
+  width: 100%;
   background-position: center;
   background-size: cover;
   border-top-right-radius: 15px;
@@ -382,7 +382,7 @@ h1.hebergement__title {
   background: url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
   height: 200px;
   display: block;
-  width: 193px;
+  width: 100%;
   background-position: center;
   background-size: cover;
   border-top-right-radius: 15px;
@@ -392,7 +392,7 @@ h1.hebergement__title {
   background: url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
   height: 200px;
   display: block;
-  width: 193px;
+  width: 100%;
   background-position: center;
   background-size: cover;
   border-top-right-radius: 15px;
