@@ -7,7 +7,11 @@ html {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Raleway", sans-serif;
   font-size: 1.3em;
 }
@@ -179,7 +183,7 @@ button {
 .filter__one {
   font-family: "Raleway", sans-serif;
 }
-.filter__item:nth-last-child() {
+.filter__item:last-child {
   width: 100px;
 }
 
@@ -221,8 +225,8 @@ button {
   width: 90%;
   display: flex;
   align-items: center;
-  position:relative;
-  bottom:30px;
+  position: relative;
+  bottom: 30px;
 }
 
 .container {
@@ -333,7 +337,7 @@ h3.populaire__title {
 }
 h2.hebergement__title {
   margin-bottom: 16px;
-    margin-top: 7px;
+  margin-top: 7px;
 }
 
 .hebergements__img__cannebiere {
@@ -511,7 +515,6 @@ section {
   margin-top: 30px;
   font-weight: bold;
 }
-
 
 .act-50 {
   margin-top: 50px;
