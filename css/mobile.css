@@ -54,13 +54,13 @@
   #activites .col {
     margin: 1% 0 1% 5%;
   }
-  #hb__left .col.span_1_of_3:first-child {
+  #hebergements .col.span_1_of_3:first-child {
     margin-left: 0;
   }
-  #hb__left .col.span_1_of_3:last-child {
+  #hebergements .col.span_1_of_3:last-child {
     margin-right: 0;
   }
-  #hb__left .col {
+  #hebergements .col {
     margin: 0;
   }
 }
