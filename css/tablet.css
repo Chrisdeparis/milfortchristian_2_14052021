@@ -34,10 +34,5 @@
   #activites .col.span_1_of_4 {
     margin: 1% 0 1% 1.8%;
   }
-  section#activites div.section.group.grid-container-3 div.col.span_1_of_4:nth-child(2) {
-    margin-left:20%;
-  }
-  section#activites div.section.group.grid-container-3 div.col.span_1_of_4:nth-child(4) {
-    margin-left:20%;
-  }
+  
 }
