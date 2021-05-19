@@ -20,6 +20,9 @@
   .filter__item {
     margin: 5px 0;
   }
+  .header__info {
+    padding-top:50px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -123,7 +126,7 @@
     margin: 0 auto;
   }
   .grid-container-3 {
-    width: 260px;
+    width: 100%;
     margin: 0 auto;
   }
   .header__center {
