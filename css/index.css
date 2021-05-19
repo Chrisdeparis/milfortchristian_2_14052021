@@ -183,9 +183,7 @@ button {
 .filter__one {
   font-family: "Raleway", sans-serif;
 }
-.filter__item:last-child {
-  width: 100px;
-}
+
 
 .filter__icon {
   height: 40px;
@@ -718,5 +716,9 @@ section.hebergements {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
+  /* div.container section.mt-50 {
+    display:flex!important;
+    flex-direction:row!important;
+  } */
 }
