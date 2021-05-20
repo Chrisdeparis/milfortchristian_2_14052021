@@ -34,6 +34,13 @@
   .filters ul li {
     margin:1px;
   }
+  .grid-activites {
+    grid-template-columns:1fr;
+    grid-template-areas: ".";
+  }
+  .grid-activites div div.vieuxPort, .grid-activites div div.frioul, .grid-activites div div.calanques {
+    margin-bottom:20px;
+  }
 }
 
 @media only screen and (min-width:600px) and (max-width:992px) {
