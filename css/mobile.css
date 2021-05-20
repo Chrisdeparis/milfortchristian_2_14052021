@@ -23,7 +23,17 @@
   .header__info {
     padding-top:50px;
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "."
+        ".";
+  }
 }
+
+
 
 @media only screen and (max-width: 767px) {
   .span_2_of_2,
