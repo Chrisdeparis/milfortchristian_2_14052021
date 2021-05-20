@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) and (orientation: landscape) and (min-resolution: 1dppx) {
+@media only screen and (max-width: 1024px) and (orientation: landscape) and (min-resolution: 1dppx) {
   /* Styles pour cette Media Queries */
   div.container section.mt-50 {
     display: flex;
@@ -13,6 +13,18 @@
   }
   #activites .col.span_1_of_4 {
     margin: 1% 0 1% 5%;
+  }
+  div.grid-populaire {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 20px;
+    grid-template-areas: ". . .";
+  }
+  div.grid-activites {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    grid-template-areas: ". .";
   }
   
 }
@@ -29,8 +41,12 @@
     width: 100%;
     margin-left: 0;
   }
-  #activites .col.span_1_of_4 {
-    margin: 1% 0 1% 1.8%;
+  
+  div.grid-activites {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    grid-template-areas: ". .";
   }
   
 }
