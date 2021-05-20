@@ -491,7 +491,7 @@ h2.hebergement__title {
   font-weight: bold;
 }
 .description__icon img {
-  height: 10px;
+  height: 16px;
 }
 .hebergement__description p {
   background: white;
@@ -645,6 +645,12 @@ section {
 }
 .section.group.filter .col.span_1_of_2 {
   margin-left: 0px;
+}
+.filters ul {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 .col.span_1_of_2 {
