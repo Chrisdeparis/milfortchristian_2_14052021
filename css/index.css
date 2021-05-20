@@ -661,7 +661,7 @@ section {
   font-weight: 700;
   border: solid 2px #e2e2e2;
   padding: 0 20px 0 0;
-  margin-top: 10px;
+  margin: 10px;
   border-radius: 200px;
 }
 
@@ -696,6 +696,17 @@ section {
     display:flex;
     justify-content:space-between;
 } */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px 20px;
+  grid-template-areas:
+    ". . ."
+    ". . .";
+}
+
 
 /* Grid section */
 /*  SECTIONS  */
