@@ -416,6 +416,11 @@ h2.hebergement__title {
   border-right: 5px solid #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.hebergement__description:hover {
+  cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.4s ease 0s;
+}
 .populaire__description {
   display: flex;
   justify-content: flex-end;
