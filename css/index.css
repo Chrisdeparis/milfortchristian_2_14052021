@@ -577,6 +577,16 @@ section {
   flex-direction: column;
   box-shadow: 1px 1px 17px -9px rgb(0 0 0 / 75%);
 }
+.vieuxPort:hover,
+.Pomegues:hover,
+.frioul:hover,
+.calanques:hover,
+.garde:hover,
+.longchamp:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.4s ease 0s;
+}
 .vieuxPort__bt,
 .Pomegues__bt,
 .frioul__bt,
