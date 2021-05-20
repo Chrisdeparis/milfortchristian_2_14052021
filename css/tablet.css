@@ -16,9 +16,9 @@
   }
   div.grid-populaire {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 10px 20px;
-    grid-template-areas: ". . .";
+    grid-template-areas: ". .";
   }
   div.grid-activites {
     display:grid;
