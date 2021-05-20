@@ -22,7 +22,9 @@ button,
   font-size: 1em;
   font-weight: bold;
 }
-
+div.info__p {
+  padding-top:5px;
+}
 body {
   margin: 0;
   padding: 0;
@@ -199,9 +201,8 @@ button {
   height: 20px;
   border-radius: 50%;
   width: 20px;
-  display: flex;
   justify-content: center;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .info__icon img {
   background: #0065fc;
@@ -556,9 +557,7 @@ section {
   align-items: flex-end;
   width: auto;
   flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px;
+  box-shadow: 1px 1px 17px -9px rgb(0 0 0 / 75%);
 }
 .vieuxPort__bt,
 .Pomegues__bt,
@@ -672,6 +671,15 @@ section {
   padding: 18px;
   border-radius: 200px;
   margin-right: 15px;
+}
+
+.info__icon .fas {
+  color: #0065fc;
+    font-size: 16px;
+    padding: 7px 11px 7px 11px;
+    border: solid 1px #D9D9D9;
+    border-radius: 2000px;
+    margin-right: 20px;
 }
 
 .col.span_1_of_2 {
