@@ -41,6 +41,9 @@
   .grid-activites div div.vieuxPort, .grid-activites div div.frioul, .grid-activites div div.calanques {
     margin-bottom:20px;
   }
+  div.info__p {
+    margin-top:15px;
+  }
 }
 
 @media only screen and (min-width:600px) and (max-width:992px) {
