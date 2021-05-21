@@ -42,7 +42,7 @@
     width: 100% !important;
     margin-bottom:30px;
   }
-  section.mt-50 div.container #hebergements div.grid-container-2 {
+  section.mt-50 div.container #populaires div.grid-container-2 {
     width: 100%!important;
     margin-left: 0;
     padding-bottom: 40px;
@@ -56,10 +56,10 @@
   }
   div.grid-container-2 {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "."
-    ". . .";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+
+    margin-bottom:40px;
   }
   
 }
