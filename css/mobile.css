@@ -206,6 +206,8 @@
     display: none;
   }
   input {width:90%;}
+  input::placeholder {color:#000;}
+  .header__search {margin-top: 30px;}
   .row.filter__resp {
     flex-direction: column;
   }
