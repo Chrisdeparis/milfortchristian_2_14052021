@@ -45,13 +45,14 @@ header {
   margin: auto;
 }
 .header__top {
+  
   display: flex;
   width: 1400px;
   justify-content: center;
   align-items: center;
   margin: auto;
   width: 90%;
-  padding-bottom: 30px;
+  margin-top: 30px;
 }
 
 .header__top img {
@@ -71,8 +72,8 @@ header {
   width: 90%;
 }
 .header__find {
-  position: relative;
-  bottom: 70px;
+  /* position: relative;
+  bottom: 70px; */
 }
 .header__title {
   font-size: 1.3rem;
@@ -81,8 +82,6 @@ header {
 .header__search {
   display: flex;
   margin-bottom: 15px;
-  position: relative;
-  bottom: 65px;
 }
 .header__search button {
   border-top-right-radius: 9px;
@@ -91,8 +90,7 @@ header {
   font-size: 0.9em;
 }
 div.header__filter {
-  position: relative;
-  bottom: 80px;
+  
 }
 .header__filter div.row {
   display: flex;
@@ -104,13 +102,13 @@ div.header__filter {
   align-self: center;
 }
 
-ul {
+div.navbar {
   display: flex;
   justify-content: space-between;
 }
 li {
   list-style: none;
-  padding: 50px 30px;
+  padding: 40px 30px 0;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
@@ -121,11 +119,15 @@ a {
 a:hover {
   color: #0065fc;
 }
-nav ul li:nth-last-of-type(1) {
+nav div li:nth-last-of-type(1) {
   margin-right: 0;
 }
-nav ul {
+nav div {
   margin-top: 0;
+}
+nav.nav-right {
+  position:relative;
+  bottom:30px;
 }
 li.nav__active {
   border-top: 3px solid #0065fc;
@@ -237,6 +239,7 @@ button {
   width: 90%;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .container {
@@ -518,9 +521,6 @@ section {
   width: 90%;
   margin: auto;
 }
-.mt-50 {
-  margin-top: -78px;
-}
 
 .row.afficher__plus p {
   margin-top: 30px;
@@ -760,10 +760,7 @@ section.hebergements {
 
 
 @media screen and (min-width: 768px) {
-  div.header__find {
-    position: relative;
-    bottom: 70px;
-  }
+  
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
