@@ -314,9 +314,10 @@ button {
   background-size: cover;
   background-position: center;
 }
-.group.grid-container-2 {
+.grid-container-2 {
   margin-bottom: 0;
   padding-bottom: 40px;
+  
 }
 .grid-container-2 {
   /* display: grid; */
