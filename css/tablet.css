@@ -58,8 +58,13 @@
     display:grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
-
     margin-bottom:40px;
   }
+  header div.header__filter {
+    position: relative;
+    bottom: 72px;
+  }
+  header div.header__filter .filters ul {margin-top:0;}
+  div.header__info {margin-top:10px;}
   
 }
