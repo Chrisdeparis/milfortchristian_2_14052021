@@ -767,10 +767,13 @@ section.hebergements {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   section.hosting div.container #populaires.grid-container-2 {
     width: 100% !important;
     margin-left: 0 !important;
     padding-bottom: 40px;
+  }
+  #populaires.grid-container-2 {
+    width:100%;
   }
 }
