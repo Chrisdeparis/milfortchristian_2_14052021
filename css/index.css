@@ -256,7 +256,7 @@ button {
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 20px;
-  margin-right: 10px;
+  margin-right: 40px;
 }
 .section.group.grid-container-1 {
   padding: 0 30px;
@@ -327,6 +327,7 @@ button {
   color: #000;
   margin: auto;
   margin-top: 0;
+  margin-right:0;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 20px;
