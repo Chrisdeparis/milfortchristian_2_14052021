@@ -328,6 +328,7 @@ button {
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 20px;
+  width:33%;
 }
 
 .hebergements {
@@ -528,7 +529,7 @@ section {
   font-weight: bold;
 }
 
-.act-50 {
+.events {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -536,7 +537,7 @@ section {
   width: 90%;
   margin-bottom: 50px;
 }
-.act-50 h4 {
+.events h4 {
   margin-top: 30px;
 }
 
@@ -767,7 +768,7 @@ section.hebergements {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 768px) {
-  section.mt-50 div.container #populaires.grid-container-2 {
+  section.hosting div.container #populaires.grid-container-2 {
     width: 100% !important;
     margin-left: 0 !important;
     padding-bottom: 40px;

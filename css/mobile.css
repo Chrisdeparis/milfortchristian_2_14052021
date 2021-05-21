@@ -128,7 +128,7 @@
   .span_1_of_3 {
     width: 33%;
   }
-  .mt-50 {
+  .hosting {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
@@ -169,7 +169,7 @@
   .span_1_of_3 {
     width: 100%;
   }
-  .mt-50 {
+  .hosting {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
@@ -204,7 +204,7 @@
   nav {
     display: none;
   }
-  .mt-50 {
+  .hosting {
     margin-top: 10px;
   }
   input {width:90%;}
@@ -217,7 +217,7 @@
     width: initial;
   }
   .hosting__search,
-  .act-50 {
+  .events {
     justify-content: space-between;
   }
   .vieuxPort__bt,
@@ -326,7 +326,7 @@
   .grid-container-3 {
     margin: 0;
   }
-  .act-50 {
+  .events {
     width: 85%;
   }
 }
@@ -421,7 +421,7 @@
   .grid-container-3 {
     margin: 0;
   }
-  .act-50 {
+  .events {
     width: 85%;
   }
 }
@@ -435,7 +435,7 @@
 
 @media only screen and (min-width: 768px) and (orientation: landscape) and (min-resolution: 1dppx) { 
   
-  section.mt-50 div.container #hebergements div.grid-container-2 {
+  section.hosting div.container #hebergements div.grid-container-2 {
     width: 100%!important;
     margin-left: 0;
     padding-bottom: 40px;

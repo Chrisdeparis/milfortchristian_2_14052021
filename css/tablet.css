@@ -1,11 +1,11 @@
 @media only screen and (max-width: 1024px) and (orientation: landscape) and (min-resolution: 1dppx) {
   /* Styles pour cette Media Queries */
-  div.container section.mt-50 {
+  div.container section.hosting {
     display: flex;
     flex-direction: column-reverse;
     gap: 30px;
   } 
-  div.container section.mt-50 #hebergements.section.grid-container-1 {
+  div.container section.hosting #hebergements.section.grid-container-1 {
     width: 100%;
   }
   .grid-container-2 {
@@ -34,15 +34,15 @@
 }
 @media only screen and (min-width: 768px) and (orientation: portrait) and (min-resolution: 1dppx) {
   /* Styles pour cette Media Queries */
-  div.container section.mt-50 {
+  div.container section.hosting {
     display: flex;
     flex-direction: column-reverse;
   }
-  div.container section.mt-50 #hebergements.section.grid-container-1 {
+  div.container section.hosting #hebergements.section.grid-container-1 {
     width: 100% !important;
     margin-bottom:30px;
   }
-  section.mt-50 div.container #populaires div.grid-container-2 {
+  section.hosting div.container #populaires div.grid-container-2 {
     width: 100%!important;
     margin-left: 0;
     padding-bottom: 40px;
