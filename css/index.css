@@ -342,7 +342,7 @@ h3.populaire__title {
   margin-top: 30px;
 }
 h2.hebergement__title {
-  margin-bottom: 48px;
+  margin-bottom: 30px;
   margin-top: 8px;
 }
 
@@ -675,6 +675,7 @@ section {
   grid-template-rows: 1fr;
   gap: 0px 40px;
   grid-template-areas: ". . .";
+  padding-top: 20px;
 }
 
 .section.group.filter {
@@ -731,8 +732,6 @@ section {
   grid-template-areas:
     ". . ."
     ". . .";
-  position: relative;
-  bottom: 22px;
 }
 .grid-populaire {
   display: grid;
