@@ -42,8 +42,8 @@
     width: 100% !important;
     margin-bottom:30px;
   }
-  .grid-container-2 {
-    width: 100%;
+  section.mt-50 div.container #hebergements div.grid-container-2 {
+    width: 100%!important;
     margin-left: 0;
     padding-bottom: 40px;
   }
