@@ -212,7 +212,6 @@ button {
 }
 
 .info__icon {
-  height: 20px;
   border-radius: 50%;
   width: 20px;
   justify-content: center;
@@ -733,7 +732,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 30px 10px;
+  gap: 30px 28px;
   grid-template-areas:
     ". . ."
     ". . .";
@@ -776,6 +775,7 @@ section {
 section.hebergements {
   margin-left: 0;
   cursor: pointer;
+  width:100%;
 }
 
 .col:first-child,
