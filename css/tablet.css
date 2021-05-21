@@ -37,10 +37,12 @@
   }
   div.container section.mt-50 #hebergements.section.group.grid-container-1 {
     width: 100% !important;
+    margin-bottom:30px;
   }
   .group.grid-container-2 {
     width: 100%;
     margin-left: 0;
+    padding-bottom: 40px;
   }
   
   div.grid-activites {
