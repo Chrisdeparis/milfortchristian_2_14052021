@@ -683,6 +683,15 @@ section {
   padding: 6px 0;
 }
 
+.grid-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 40px;
+  grid-template-areas:
+    ". . .";
+}
+
 .section.group.filter {
   margin-left: 5%;
   display: none;
