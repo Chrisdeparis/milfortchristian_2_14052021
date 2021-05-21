@@ -492,6 +492,12 @@ h2.hebergement__title {
 .populaire__group .description__icon {
   margin-left: 10px;
 }
+.description__icon .full-star {
+    color: #0065fc;
+}
+.description__icon .empty-star {
+  color: #D9D9D9;
+}
 .populaires.populaires__img__eau .populaire__wd,
 .populaires.populaires__img__ .populaire__wd,
 .populaires.populaires__img__bleu .populaire__wd {
@@ -604,6 +610,14 @@ section {
   padding-left: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+.vieuxPort__bt p.activites__title,
+.Pomegues__bt p.activites__title,
+.frioul__bt p.activites__title,
+.calanques__bt p.activites__title,
+.garde__bt p.activites__title,
+.longchamp__bt p.activites__title {
+  font-size:1rem;
 }
 .Pomegues {
   height: 210px;
