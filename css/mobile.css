@@ -9,18 +9,18 @@
     position: relative;
     top: 0px;
   }
-  .header__search {
+  .hosting__search {
     position: relative;
     bottom: 0;
   }
-  div.header__filter {
+  div.hosting__filter {
     position: relative;
     bottom: 0;
   }
   .filter__item {
     margin: 5px 0;
   }
-  div.header__info {margin-bottom:20px;}
+  div.hosting__info {margin-bottom:20px;}
   
   .grid-container {margin-top:40px;
     display: grid;
@@ -209,14 +209,14 @@
   }
   input {width:90%;}
   input::placeholder, input::-moz-placeholder {color:#000;}
-  .header__search {margin-top: 30px;}
+  .hosting__search {margin-top: 30px;}
   .row.filter__resp {
     flex-direction: column;
   }
-  .header__filter div.row {
+  .hosting__filter div.row {
     width: initial;
   }
-  .header__search,
+  .hosting__search,
   .act-50 {
     justify-content: space-between;
   }
