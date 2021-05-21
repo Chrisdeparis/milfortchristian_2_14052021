@@ -50,6 +50,7 @@
     gap: 15px 0px;
   }
   .populaire__top {margin-bottom: 20px;}
+  .group.grid-container-2 {padding-bottom: 40px;}
 }
 
 @media only screen and (min-width:600px) and (max-width:992px) {
