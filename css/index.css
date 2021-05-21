@@ -477,7 +477,9 @@ h2.hebergement__title {
 .populaire__group .populaire__wd p:nth-child(2) {
   margin-top: 5px;
 }
-
+.description__icon {
+  display:flex;
+}
 .populaire__group .description__icon {
   margin-left: 10px;
 }
@@ -702,6 +704,7 @@ section {
   margin: 10px;
   border-radius: 200px;
 }
+
 
 .icon-filter {
   background-color: #deebff;
