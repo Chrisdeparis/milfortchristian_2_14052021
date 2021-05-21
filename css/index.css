@@ -250,11 +250,11 @@ button {
   background-color: #f2f2f2;
   color: #000;
   width: 65%;
-  padding-top: 80px;
+  padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 20px;
-  margin-right: 70px;
+  margin-right: 10px;
 }
 .section.group.grid-container-1 {
   padding: 0 30px;
@@ -268,7 +268,7 @@ button {
 
 .populaires {
   height: 150px;
-  margin-top: 28px;
+  margin-top: 20px;
   margin-bottom: 0px;
   cursor: pointer;
 }
@@ -316,6 +316,7 @@ button {
 }
 .group.grid-container-2 {
   margin-bottom: 0;
+  padding-bottom: 40px;
 }
 .grid-container-2 {
   /* display: grid; */
@@ -348,7 +349,7 @@ h3.populaire__title {
   margin-top: 30px;
 }
 h2.hebergement__title {
-  margin-bottom: 35px;
+  margin-bottom: 48px;
   margin-top: 8px;
 }
 
@@ -782,18 +783,18 @@ section {
 
 /* Grid section */
 /*  SECTIONS  */
-.section {
+/* .section {
   clear: both;
   padding: 0px;
   margin: 0px;
-}
+} */
 
 /*  COLUMN SETUP  */
-.col {
+/* .col {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
-}
+} */
 
 section.hebergements {
   margin-left: 0;
@@ -809,8 +810,8 @@ section.hebergements {
 /*  GROUPING  */
 .group:before,
 .group:after {
-  content: "";
-  display: table;
+  /* content: ""; */
+  /* display: table; */
 }
 .group:after {
   clear: both;
