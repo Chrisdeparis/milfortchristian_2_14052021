@@ -205,6 +205,7 @@
   nav {
     display: none;
   }
+  input {width:90%;}
   .row.filter__resp {
     flex-direction: column;
   }
@@ -213,7 +214,7 @@
   }
   .header__search,
   .act-50 {
-    justify-content: center;
+    justify-content: space-between;
   }
   .vieuxPort__bt,
   .Pomegues__bt,

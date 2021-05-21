@@ -192,7 +192,7 @@ button {
   cursor: pointer;
   margin: 0 5px;
 }
-.filters-button:hover {
+.filters-item:hover {
   background: #0065fc;
   color: white;
   cursor: pointer;
