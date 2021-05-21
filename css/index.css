@@ -582,7 +582,7 @@ section {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  width: auto;
+  width: 100%;
   flex-direction: column;
   box-shadow: 1px 1px 17px -9px rgb(0 0 0 / 75%);
 }
@@ -646,7 +646,7 @@ section {
   height: 190px;
   border-radius: 20px;
   margin-bottom: 20px;
-  width: 260px;
+  width: 100%;
 }
 .longchamp {
   background: url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
@@ -655,7 +655,7 @@ section {
   background-position: center;
   height: 190px;
   border-radius: 20px;
-  width: 260px;
+  width: 100%;
 }
 /* Footer */
 .footer {
