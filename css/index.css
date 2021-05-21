@@ -74,6 +74,10 @@ header {
   position: relative;
   bottom: 70px;
 }
+.header__title {
+  font-size: 1.3rem;
+    width: 80%;
+}
 .header__search {
   display: flex;
   margin-bottom: 15px;
