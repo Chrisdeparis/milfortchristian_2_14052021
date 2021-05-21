@@ -102,10 +102,7 @@ div.header__filter {
   align-self: center;
 }
 
-div.navbar {
-  display: flex;
-  justify-content: space-between;
-}
+
 li {
   list-style: none;
   padding: 40px 30px 0;
@@ -130,6 +127,8 @@ ul.nav-right {
   position:relative;
   bottom:30px;
   margin-bottom:0;
+  display: flex;
+  justify-content: space-between;
 }
 li.nav__active {
   border-top: 3px solid #0065fc;
