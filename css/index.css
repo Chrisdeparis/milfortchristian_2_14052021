@@ -699,7 +699,7 @@ section {
   display: inline;
   font-weight: 700;
   border: solid 2px #e2e2e2;
-  padding: 0 20px 0 0;
+  padding: 0 14px 0 0;
   margin: 10px;
   border-radius: 200px;
 }
@@ -759,12 +759,6 @@ section.hebergements {
 }
 
 
-
-
-
-@media screen and (min-width: 768px) {
-  
-}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
