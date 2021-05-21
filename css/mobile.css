@@ -20,9 +20,7 @@
   .filter__item {
     margin: 5px 0;
   }
-  .header__info {
-    padding-top:78px;
-  }
+  
   .grid-container {margin-top:40px;
     display: grid;
     grid-template-columns: 1fr;
@@ -204,6 +202,9 @@
 @media only screen and (max-width: 767px) {
   nav {
     display: none;
+  }
+  .mt-50 {
+    margin-top: 10px;
   }
   input {width:90%;}
   input::placeholder, input::-moz-placeholder {color:#000;}
