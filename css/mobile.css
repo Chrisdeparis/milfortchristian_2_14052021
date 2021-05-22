@@ -14,8 +14,7 @@
     bottom: 0;
   }
   div.hosting__filter {
-    position: relative;
-    bottom: 0;
+    margin-top:10px;
   }
   .filter__item {
     margin: 5px 0;
