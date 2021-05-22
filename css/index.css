@@ -45,7 +45,6 @@ header {
   margin: auto;
 }
 .header__top {
-  
   display: flex;
   width: 1400px;
   justify-content: center;
@@ -53,7 +52,7 @@ header {
   margin: auto;
   width: 90%;
   margin-top: 30px;
-  margin-bottom:-10px;
+  margin-bottom: -10px;
 }
 
 .header__top img {
@@ -71,7 +70,6 @@ header {
 .hosting__filter {
   margin: auto;
   width: 90%;
-  
 }
 
 .header__title {
@@ -89,7 +87,6 @@ header {
   font-size: 0.9em;
 }
 div.hosting__filter {
-  
 }
 .hosting__filter div.row {
   display: flex;
@@ -100,7 +97,6 @@ div.hosting__filter {
   align-items: center;
   align-self: center;
 }
-
 
 li {
   list-style: none;
@@ -122,10 +118,10 @@ nav ul {
   margin-top: 0;
 }
 ul.nav-right {
-  margin-top:0;
-  position:relative;
-  bottom:30px;
-  margin-bottom:0;
+  margin-top: 0;
+  position: relative;
+  bottom: 30px;
+  margin-bottom: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -326,18 +322,17 @@ button {
   color: #000;
   margin: auto;
   margin-top: 0;
-  margin-right:0;
+  margin-right: 0;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 20px;
-  width:33%;
+  width: 33%;
 }
 
 .hebergements {
   height: 200px;
   display: flex;
 }
-
 
 h3.populaire__title {
   color: #000;
@@ -411,7 +406,6 @@ h2.hebergement__title {
   border-top-left-radius: 15px;
 }
 
-
 .hebergement__description {
   display: flex;
   flex-direction: column;
@@ -479,7 +473,7 @@ h2.hebergement__title {
   margin-top: 5px;
 }
 .description__icon {
-  display:flex;
+  display: flex;
 }
 .populaire__group .description__icon {
   margin-left: 10px;
@@ -496,7 +490,7 @@ h2.hebergement__title {
   width: 90%;
 }
 p.populaire__title {
-  font-size:1rem;
+  font-size: 1rem;
 }
 .populaire__price,
 .hebergement__price {
@@ -511,7 +505,7 @@ p.hebergement__price {
   font-weight: bold;
 }
 p.populaire__price {
-  font-size:0.8rem;
+  font-size: 0.8rem;
 }
 .hebergement__price span {
   font-weight: bold;
@@ -520,7 +514,7 @@ p.populaire__price {
   height: 16px;
 }
 .hebergement__description p {
-  font-size:0.8rem;
+  font-size: 0.8rem;
   background: white;
 }
 .populaire {
@@ -590,7 +584,7 @@ section {
 .longchamp:hover {
   cursor: pointer;
   transform: scale(1.07);
-  transition: all .2s ease-in-out; ;
+  transition: all 0.2s ease-in-out;
 }
 .vieuxPort__bt,
 .Pomegues__bt,
@@ -671,7 +665,7 @@ section {
   flex-direction: column;
   padding: 0;
   font-weight: normal;
-  margin:0;
+  margin: 0;
 }
 .ft__link li {
   margin: 0;
@@ -717,7 +711,6 @@ section {
   margin-bottom: 4px;
 }
 
-
 .icon-filter {
   background-color: #deebff;
   color: #0065fc;
@@ -734,7 +727,6 @@ section {
   border-radius: 50%;
   margin-right: 10px;
 }
-
 
 .grid-container {
   display: grid;
@@ -769,8 +761,6 @@ section.hebergements {
   width: 100%;
 }
 
-
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   section.hosting div.container #populaires.grid-container-2 {
@@ -779,6 +769,6 @@ section.hebergements {
     padding-bottom: 40px;
   }
   #populaires.grid-container-2 {
-    width:100%;
+    width: 100%;
   }
 }
