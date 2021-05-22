@@ -505,6 +505,9 @@ p.hebergement__price {
 .populaire__price span {
   font-weight: bold;
 }
+p.populaire__price {
+  font-size:0.8rem;
+}
 .hebergement__price span {
   font-weight: bold;
 }
@@ -512,6 +515,7 @@ p.hebergement__price {
   height: 16px;
 }
 .hebergement__description p {
+  font-size:0.8rem;
   background: white;
 }
 .populaire {
@@ -525,7 +529,7 @@ section {
 }
 
 .row.afficher__plus p {
-  margin-top: 30px;
+  margin-top: 35px;
   font-weight: bold;
 }
 
@@ -655,6 +659,7 @@ section {
 }
 .footer h5 {
   font-size: 1em;
+  margin-bottom: 10px;
 }
 .footer ul {
   display: flex;
