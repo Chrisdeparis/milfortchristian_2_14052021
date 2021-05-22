@@ -33,6 +33,7 @@
   }
   .filters ul li {
     margin: 1px;
+    padding:0 14px 0 0;
   }
   .grid-activites {
     grid-template-columns: 1fr;
