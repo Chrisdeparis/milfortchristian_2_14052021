@@ -443,7 +443,7 @@ h2.hebergement__title {
 }
 .description__group h4 {
   margin: 6px 0px;
-  font-size: 0.9em;
+  font-size: 1rem;
 }
 .populaire__top {
   position: relative;
@@ -494,6 +494,9 @@ h2.hebergement__title {
 .populaires.populaires__img__ .populaire__wd,
 .populaires.populaires__img__bleu .populaire__wd {
   width: 90%;
+}
+p.populaire__title {
+  font-size:1rem;
 }
 .populaire__price,
 .hebergement__price {
