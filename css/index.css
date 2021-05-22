@@ -57,9 +57,12 @@ header {
 
 .header__top img {
   position: relative;
-  bottom: 13px;
+  bottom: 36px;
   width: 97px;
   height: 45px;
+}
+.lien-logo {
+  height:5px;
 }
 .header__center {
   margin: auto;
