@@ -70,6 +70,7 @@ header {
 .hosting__filter {
   margin: auto;
   width: 90%;
+  
 }
 
 .header__title {
@@ -78,7 +79,7 @@ header {
 }
 .hosting__search {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 1px;
 }
 .hosting__search button {
   border-top-right-radius: 9px;
@@ -708,6 +709,7 @@ section {
   padding: 0 14px 0 0;
   margin: 10px;
   border-radius: 200px;
+  margin-bottom: 4px;
 }
 
 
