@@ -229,7 +229,7 @@
     color: #000;
   }
   .hosting__search {
-    margin-top: 30px;
+    margin-top: 0px;
   }
   .row.filter__resp {
     flex-direction: column;
