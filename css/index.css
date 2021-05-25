@@ -95,6 +95,8 @@ header {
   grid-area: sign-up;
   color: #0065fc;
   font-weight: 600;
+  position: relative;
+  top: 2px;
 }
 .header__top {
   display: flex;
