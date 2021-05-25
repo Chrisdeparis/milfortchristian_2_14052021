@@ -95,7 +95,7 @@
       .navbar .navbar__link .underline-effect {display:none;}
   .navbar .logo {
     position: relative;
-    left: 20px;
+    left: 10%;
   }
   .navbar__link.active-link {
     margin-top: 0;
