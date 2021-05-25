@@ -59,7 +59,10 @@ header {
 .navbar #navbar-hosting {
   grid-area: accomodation;
 }
-.navbar .active-link {
+.navbar a.active-link {
+  color: #0065fc;
+}
+.navbar__link.active-link a {
   color: #0065fc;
 }
 .navbar .navbar__link .underline-effect {
