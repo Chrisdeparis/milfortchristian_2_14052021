@@ -128,6 +128,7 @@ ul.nav-right {
   display: flex;
   justify-content: space-between;
 }
+
 li.nav__active {
   border-top: 3px solid #0065fc;
 }
@@ -480,6 +481,7 @@ h2.hebergement__title {
 }
 .populaire__group .description__icon {
   margin-left: 10px;
+  margin-bottom:15px;
 }
 .description__icon .full-star {
   color: #0065fc;
