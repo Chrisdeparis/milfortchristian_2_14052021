@@ -72,28 +72,45 @@
     grid-template-columns: 1fr;
     grid-template-areas: ".";
   }
-  /* ul.nav-right li {margin:0;padding:0;}
-  ul.nav-right li.link__color{position: relative;
-    top: 37px;}
-  ul.nav-right li.nav__active {position: relative;
-    top: 90px;
-    right: 70px;border-top:0;border-bottom:3px solid #0065fc;}
-  ul.nav-right li.br {position: relative;
-    top: 90px;
-    left: 65px;}
-  .header__top img {position: relative;
-    right: 122px;}
-    div.header__find {
-      margin-top: 90px;
-    } */
-    div.header__top {
-      display: flex;
-    justify-content: space-around;
-    margin: 30px;
-    margin-left: -30px;
-    align-items: center;
-    margin-bottom: 15px;
-    }
+  .navbar {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "logo sign-up"
+    "accomodation activities"
+    ;
+  }
+  .navbar #navbar-signup {position: relative;
+    left: 30px;}
+  #navbar-hosting, #navbar-activities {margin: 30px 0;}
+  .navabar .active-link {
+    border-bottom: 3px solid #0065fc;
+    padding-bottom: 15px;
+  }
+  .navbar #navbar-hosting {    border-bottom: 3px solid;
+    padding-bottom: 16px; margin-top: 10px;}
+    .navbar #navbar-activities { border-bottom: 3px solid #f2f2f2;
+      padding-bottom: 16px;margin-top: 10px;}
+      .navbar .navbar__link .underline-effect {display:none;}
+  .navbar .logo {
+    position: relative;
+    left: 20px;
+  }
+  .navbar__link.active-link {
+    margin-top: 0;
+  }
+  .navbar__link.active-link a {
+    color:#0065fc;
+  }
+  .header__find {
+    width: 90%;
+    margin:0 auto;
+  }
+  header {
+    width:100%;
+  }
+    
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
