@@ -48,26 +48,26 @@ header {
 }
 
 .navbar {
-  
   display: grid;
   justify-content: center;
   align-items: center;
   grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "logo . accomodation activities sign-up";
+  margin-top: 30px;
 }
-.navbar #navbar-link-accomodation {
+.navbar #navbar-hosting {
   grid-area: accomodation;
 }
 .navbar .active-link {
   color: #0065fc;
 }
-.navbar .navbar-link .underline-effect {
-  width: 100%;
+.navbar .navbar__link .underline-effect {
+  width: 160%;
   height: 3px;
   background: white;
 }
-.navbar .navbar-link {
+.navbar .navbar__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,20 +75,20 @@ header {
   margin:0 30px;
 }
 
-.navbar #navbar-link-activities {
+.navbar #navbar-activities {
   grid-area: activities;
   color: black;
 }
 
-.navbar #navbar-link-accomodation > .underline-effect {
+.navbar #navbar-hosting > .underline-effect {
   background: #0065fc;
   position: relative;
     bottom: 44px;
 }
-#navbar-link-sign-up a {
+#navbar-signup a {
   color: #0065fc;
 }
-.navbar #navbar-link-sign-up {
+.navbar #navbar-signup {
   grid-area: sign-up;
   color: #0065fc;
   font-weight: 600;
