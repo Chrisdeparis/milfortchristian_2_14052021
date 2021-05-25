@@ -55,6 +55,7 @@ header {
   grid-template-rows: 1fr;
   grid-template-areas: "logo . accomodation activities sign-up";
   margin-top: 30px;
+  padding-bottom: 10px;
 }
 .navbar #navbar-hosting {
   grid-area: accomodation;
