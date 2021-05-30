@@ -851,6 +851,10 @@ section.hebergements {
   width: 100%;
 }
 
+section.hosting {
+  padding-bottom: 30px;
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   section.hosting div.container #populaires.grid-container-2 {
