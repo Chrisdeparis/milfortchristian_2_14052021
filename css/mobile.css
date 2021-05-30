@@ -10,6 +10,9 @@
     position: relative;
     top: 0px;
   }
+  div.header__find p {
+    font-weight: 400;
+  }
   .hosting__search {
     position: relative;
     bottom: 0;
@@ -47,6 +50,10 @@
   }
   div.info__p {
     margin-top: 10px;
+    font-weight: 400;
+  }
+  .header__title {
+    width: 84%;
   }
   h2.hebergement__title {
     margin: 0;
@@ -92,7 +99,7 @@
   .navbar #navbar-hosting {    border-bottom: 3px solid #0065fc;
     padding-bottom: 16px; margin-top: 10px;}
     .navbar #navbar-activities { border-bottom: 3px solid #f2f2f2;
-      padding-bottom: 16px;margin-top: 10px;}
+      padding-bottom: 16px;margin-top: 10px;font-weight: 400;}
       .navbar .navbar__link .underline-effect {display:none;}
   .navbar .logo {
     position: relative;
@@ -103,6 +110,7 @@
   }
   .navbar__link.active-link a {
     color:#0065fc;
+    font-weight: 400;
   }
   .header__find {
     width: 90%;
