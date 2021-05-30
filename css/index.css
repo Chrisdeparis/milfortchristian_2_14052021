@@ -61,7 +61,7 @@ header {
 }
 .navbar #navbar-hosting {
   grid-area: accomodation;
-  font-weight: 600;
+  font-weight: 400;
 }
 .navbar a.active-link {
   color: #0065fc;
@@ -85,7 +85,7 @@ header {
 .navbar #navbar-activities {
   grid-area: activities;
   color: black;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .navbar #navbar-hosting > .underline-effect {
