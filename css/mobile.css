@@ -111,6 +111,9 @@
   header {
     width:100%;
   }
+  footer.footer {
+    padding-bottom: 30px;
+  }
     
 }
 
