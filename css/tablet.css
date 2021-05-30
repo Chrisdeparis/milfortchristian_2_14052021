@@ -64,6 +64,9 @@
     display:grid;
     column-gap: 30px;
   }
+  div.filters {
+    margin-top: 20px;
+  }
 
   header div.hosting__filter .filters ul {
     margin-top: 0;
