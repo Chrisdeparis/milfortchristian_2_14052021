@@ -304,6 +304,11 @@ button {
   max-width:1600px;
   margin:0 auto;
 }
+
+.pic {
+  width: 52px;
+  height: 52px;
+}
 .grid-container-1 {
   grid-gap: 20px;
   background-color: #f2f2f2;
@@ -753,10 +758,19 @@ section {
 .section.group.filter .col.span_1_of_2 {
   margin-left: 0px;
 }
+.icons-name {
+  display:flex;
+  align-items: center;
+}
+.filters {
+  display: flex;
+  align-items: center;
+}
 .filters h3 {
   font-size: 1rem;
   display: inline;
   font-weight: bold;
+  
 }
 .filters ul {
   display: inline-flex;
