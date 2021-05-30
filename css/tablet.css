@@ -60,6 +60,10 @@
     margin-bottom: 40px;
     width: 100%;
   }
+  div.grid-container {
+    display:grid;
+    column-gap: 30px;
+  }
 
   header div.hosting__filter .filters ul {
     margin-top: 0;
