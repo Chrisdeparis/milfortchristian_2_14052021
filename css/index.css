@@ -718,6 +718,7 @@ section {
 /* Footer */
 .footer {
   width: 100%;
+  padding-bottom: 30px;
 }
 .ft__bg {
   background: #f2f2f2;
