@@ -1,1 +1,368 @@
-@media only screen and (max-width:767px){div.header__find{position:relative;top:0}div.header__find p{font-weight:400}.hosting__search{position:relative;bottom:0}div.hosting__filter{margin-top:10px}.filter__item{margin:5px 0}div.hosting__info{margin-bottom:20px}.grid-container{margin-top:40px;display:grid;grid-template-columns:1fr;grid-template-areas:"." "."}.filters ul li{margin:5px 4px;padding:0 14px 0 0}.grid-activites{grid-template-columns:1fr;grid-template-areas:"."}.grid-activites div div.calanques,.grid-activites div div.frioul,.grid-activites div div.vieuxPort{margin-bottom:20px}div.info__p{margin-top:10px;font-weight:400}.header__title{width:84%}h2.hebergement__title{margin:0;margin-bottom:20px;margin-top:25px}.grid-container-1{background:#fff}.populaires{margin:0}.grid-populaire{gap:15px 0}.populaire__top{margin-bottom:20px}.grid-container-2{padding-bottom:40px}.grid-footer{display:grid;grid-template-columns:1fr;grid-template-areas:"."}.navbar{margin-top:10px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;grid-template-areas:"logo sign-up" "accomodation activities"}.navbar #navbar-signup{position:relative;left:30px}#navbar-activities,#navbar-hosting{margin:30px 0}.navbar #navbar-hosting{border-bottom:3px solid #0065fc;padding-bottom:16px;margin-top:10px}.navbar #navbar-activities{border-bottom:3px solid #f2f2f2;padding-bottom:16px;margin-top:10px;font-weight:400}.navbar .navbar__link .underline-effect{display:none}.navbar .logo{position:relative;left:10%}.navbar__link.active-link{margin-top:0}.navbar__link.active-link a{color:#0065fc;font-weight:400}.header__find{width:90%;margin:0 auto}header{width:100%}footer.footer{padding-bottom:30px}.filters{display:block}}@media only screen and (min-width:600px) and (max-width:992px){.grid-container{display:grid;grid-template-columns:1fr 1fr;grid-template-areas:". ." ". ." ". .";gap:30px 10px}.grid-footer{display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-areas:". ." ". ."}}@media only screen and (max-width:767px){.hosting{display:flex;flex-direction:column-reverse;width:100%}.grid-container-2{width:100%;margin:0 auto}.section.grid-container-1{width:100%}}@media only screen and (max-width:767px){.section.grid-container-1{width:100%}}@media only screen and (max-width:600px){.section.grid-container-1{width:100%}.hosting{display:flex;flex-direction:column-reverse;width:100%}.grid-container-2{width:100%;margin:0 auto}.grid-container-3{width:100%;margin:0 auto}section{width:100%}.footer{margin-left:30px}.header__top{flex-direction:column}.header__top img{margin-top:30px}.hebergements{height:230px}}@media only screen and (max-width:767px){nav{display:none}.hosting{margin-top:10px}input{width:90%}input::placeholder{color:#000}.hosting__search{margin-top:0}.hosting__filter div.row{width:initial}.events,.hosting__search{justify-content:space-between}.Pomegues__bt,.calanques__bt,.frioul__bt,.garde__bt,.longchamp__bt,.vieuxPort__bt{padding-left:0}}@media only screen and (min-width:768px){button.mobile{display:none}}@media only screen and (max-width:767px){.container{width:100%}.header__mobile{display:flex;justify-content:space-around;margin:30px;margin-left:-30px;align-items:center;margin-bottom:15px}.header__mobile__r{position:relative;left:60px}.header__mobile__r p a{color:#0065fc}.active p a{color:#0065fc}button.desktop{display:none}button.mobile{border-radius:9px;position:relative;right:5px}button.mobile img{width:20px}.Pomegues,.calanques,.frioul,.garde,.longchamp,.vieuxPort{height:170px;width:300px}.Pomegues__bt,.calanques__bt,.frioul__bt,.garde__bt,.longchamp__bt,.vieuxPort__bt{display:flex;justify-content:flex-end;flex-direction:column;background:#fff;min-width:300px;padding-left:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px}.grid-container-3{margin:0}.events{width:85%}}@media only screen and (max-width:767px){.container{width:100%}.header__mobile{display:flex;justify-content:space-around;margin:30px;margin-left:-30px;align-items:center;margin-bottom:15px}.header__mobile__r{position:relative;left:60px}.header__mobile__r p a{color:#0065fc}.active p a{color:#0065fc}button.desktop{display:none}button.mobile{border-radius:9px;position:relative;right:5px}button.mobile img{width:20px}.Pomegues,.calanques,.frioul,.garde,.longchamp,.vieuxPort{height:170px;width:100%}.Pomegues__bt,.calanques__bt,.frioul__bt,.garde__bt,.longchamp__bt,.vieuxPort__bt{display:flex;justify-content:flex-end;flex-direction:column;background:#fff;min-width:100%;padding-left:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px}.grid-container-3{margin:0}.events{width:85%}}@media only screen and (max-width:411px){.container{width:100%}}@media only screen and (min-width:768px) and (orientation:landscape) and (min-resolution:1dppx){section.hosting div.container #hebergements div.grid-container-2{width:100%!important;margin-left:0;padding-bottom:40px}}
+@media only screen and (max-width: 767px) {
+  div.header__find {
+    position: relative;
+    top: 0;
+  }
+  div.header__find p {
+    font-weight: 400;
+  }
+  .hosting__search {
+    position: relative;
+    bottom: 0;
+  }
+  div.hosting__filter {
+    margin-top: 10px;
+  }
+  .filter__item {
+    margin: 5px 0;
+  }
+  div.hosting__info {
+    margin-bottom: 20px;
+  }
+  .grid-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "." ".";
+  }
+  .filters ul li {
+    margin: 5px 4px;
+    padding: 0 14px 0 0;
+  }
+  .grid-activites {
+    grid-template-columns: 1fr;
+    grid-template-areas: ".";
+  }
+  .grid-activites div div.calanques,
+  .grid-activites div div.frioul,
+  .grid-activites div div.vieuxPort {
+    margin-bottom: 20px;
+  }
+  div.info__p {
+    margin-top: 10px;
+    font-weight: 400;
+  }
+  .header__title {
+    width: 84%;
+  }
+  h2.hebergement__title {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+  .grid-container-1 {
+    background: #fff;
+  }
+  .populaires {
+    margin: 0;
+  }
+  .grid-populaire {
+    gap: 15px 0;
+  }
+  .populaire__top {
+    margin-bottom: 20px;
+  }
+  .grid-container-2 {
+    padding-bottom: 40px;
+  }
+  .grid-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: ".";
+  }
+  .navbar {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "logo sign-up" "accomodation activities";
+  }
+  .navbar #navbar-signup {
+    position: relative;
+    left: 30px;
+  }
+  #navbar-activities,
+  #navbar-hosting {
+    margin: 30px 0;
+  }
+  .navbar #navbar-hosting {
+    border-bottom: 3px solid #0065fc;
+    padding-bottom: 16px;
+    margin-top: 10px;
+  }
+  .navbar #navbar-activities {
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 16px;
+    margin-top: 10px;
+    font-weight: 400;
+  }
+  .navbar .navbar__link .underline-effect {
+    display: none;
+  }
+  .navbar .logo {
+    position: relative;
+    left: 10%;
+  }
+  .navbar__link.active-link {
+    margin-top: 0;
+  }
+  .navbar__link.active-link a {
+    color: #0065fc;
+    font-weight: 400;
+  }
+  .header__find {
+    width: 90%;
+    margin: 0 auto;
+  }
+  header {
+    width: 100%;
+  }
+  footer.footer {
+    padding-bottom: 30px;
+  }
+  .filters {
+    display: block;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: ". ." ". ." ". .";
+    gap: 30px 10px;
+  }
+  .grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". ." ". .";
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hosting {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .grid-container-2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .section.grid-container-1 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section.grid-container-1 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .section.grid-container-1 {
+    width: 100%;
+  }
+  .hosting {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .grid-container-2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .grid-container-3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section {
+    width: 100%;
+  }
+  .footer {
+    margin-left: 30px;
+  }
+  .header__top {
+    flex-direction: column;
+  }
+  .header__top img {
+    margin-top: 30px;
+  }
+  .hebergements {
+    height: 230px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  nav {
+    display: none;
+  }
+  .hosting {
+    margin-top: 10px;
+  }
+  input {
+    width: 90%;
+  }
+  input::placeholder {
+    color: #000;
+  }
+  .hosting__search {
+    margin-top: 0;
+  }
+  .hosting__filter div.row {
+    width: initial;
+  }
+  .events,
+  .hosting__search {
+    justify-content: space-between;
+  }
+  .Pomegues__bt,
+  .calanques__bt,
+  .frioul__bt,
+  .garde__bt,
+  .longchamp__bt,
+  .vieuxPort__bt {
+    padding-left: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  button.mobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .header__mobile {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    margin-left: -30px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .header__mobile__r {
+    position: relative;
+    left: 60px;
+  }
+  .header__mobile__r p a {
+    color: #0065fc;
+  }
+  .active p a {
+    color: #0065fc;
+  }
+  button.desktop {
+    display: none;
+  }
+  button.mobile {
+    border-radius: 9px;
+    position: relative;
+    right: 5px;
+  }
+  button.mobile img {
+    width: 20px;
+  }
+  .Pomegues,
+  .calanques,
+  .frioul,
+  .garde,
+  .longchamp,
+  .vieuxPort {
+    height: 170px;
+    width: 300px;
+  }
+  .Pomegues__bt,
+  .calanques__bt,
+  .frioul__bt,
+  .garde__bt,
+  .longchamp__bt,
+  .vieuxPort__bt {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: #fff;
+    min-width: 300px;
+    padding-left: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .grid-container-3 {
+    margin: 0;
+  }
+  .events {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .header__mobile {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    margin-left: -30px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .header__mobile__r {
+    position: relative;
+    left: 60px;
+  }
+  .header__mobile__r p a {
+    color: #0065fc;
+  }
+  .active p a {
+    color: #0065fc;
+  }
+  button.desktop {
+    display: none;
+  }
+  button.mobile {
+    border-radius: 9px;
+    position: relative;
+    right: 5px;
+  }
+  button.mobile img {
+    width: 20px;
+  }
+  .Pomegues,
+  .calanques,
+  .frioul,
+  .garde,
+  .longchamp,
+  .vieuxPort {
+    height: 170px;
+    width: 100%;
+  }
+  .Pomegues__bt,
+  .calanques__bt,
+  .frioul__bt,
+  .garde__bt,
+  .longchamp__bt,
+  .vieuxPort__bt {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: #fff;
+    min-width: 100%;
+    padding-left: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .grid-container-3 {
+    margin: 0;
+  }
+  .events {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 411px) {
+  .container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (orientation: landscape) and (min-resolution: 1dppx) {
+  section.hosting div.container #hebergements div.grid-container-2 {
+    width: 100% !important;
+    margin-left: 0;
+    padding-bottom: 40px;
+  }
+}

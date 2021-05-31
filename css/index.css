@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -769,9 +769,7 @@ section {
   margin-left: 5%;
   display: none;
 }
-.section.group.filter .col.span_1_of_2 {
-  margin-left: 0px;
-}
+
 .icons-name {
   display:flex;
   align-items: center;
