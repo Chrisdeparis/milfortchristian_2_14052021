@@ -4,7 +4,7 @@
     top: 0;
   }
   div.header__find p {
-    font-weight: 400;
+    font-weight: 600;
   }
   .hosting__search {
     position: relative;
@@ -40,7 +40,7 @@
   }
   div.info__p {
     margin-top: 10px;
-    font-weight: 400;
+    font-weight: 600;
   }
   .header__title {
     width: 84%;
@@ -94,7 +94,7 @@
     border-bottom: 3px solid #f2f2f2;
     padding-bottom: 16px;
     margin-top: 10px;
-    font-weight: 400;
+    font-weight: 600;
   }
   .navbar .navbar__link .underline-effect {
     display: none;
@@ -108,7 +108,7 @@
   }
   .navbar__link.active-link a {
     color: #0065fc;
-    font-weight: 400;
+    font-weight: 600;
   }
   .header__find {
     width: 90%;
