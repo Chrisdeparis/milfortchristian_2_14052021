@@ -228,7 +228,7 @@
   }
 }
 @media only screen and (min-width: 768px) {
-  button.mobile {
+  div.mobile {
     display: none;
   }
 }
@@ -257,12 +257,14 @@
   button.desktop {
     display: none;
   }
-  button.mobile {
+  div.mobile {
     border-radius: 9px;
     position: relative;
     right: 5px;
+    background:#0065fc;
+    height:48px;
   }
-  button.mobile img {
+  div.mobile img {
     width: 20px;
   }
   .Pomegues,
@@ -321,12 +323,12 @@
   button.desktop {
     display: none;
   }
-  button.mobile {
+  div.mobile {
     border-radius: 9px;
     position: relative;
     right: 5px;
   }
-  button.mobile img {
+  div.mobile img {
     width: 20px;
   }
   .Pomegues,
