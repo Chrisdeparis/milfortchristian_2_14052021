@@ -84,8 +84,10 @@ header {
 
 .navbar #navbar-activities {
   grid-area: activities;
-  color: black;
   font-weight: 600;
+}
+a#navbar_activities:hover {
+  color:#0065fc;
 }
 
 .navbar .top-line > .underline-effect {
@@ -889,6 +891,7 @@ section.hosting {
   img.icons-search {
     display: none;
   }
+  
 
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */

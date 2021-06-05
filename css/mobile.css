@@ -127,7 +127,7 @@
     font-weight: 600;
   }
   div.container header nav.navbar a#navbar-hosting.active {
-    border-bottom: 3px solid #0065fc!important; 
+    border-bottom: 3px solid #0065fc; 
     color:#0065fc;
   }
   a#navbar-hosting:active {
