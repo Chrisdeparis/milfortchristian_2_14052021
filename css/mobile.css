@@ -108,6 +108,11 @@
     border-bottom: 3px solid #0065fc; 
     color:#0065fc;
   }
+  
+  .navbar a:active {
+    border-bottom: 3px solid orange;
+  }
+
   a.active .navbar #navbar-hosting.bt-line {
     border-bottom: 3px solid #0065fc;
   }
@@ -120,6 +125,10 @@
     padding-bottom: 16px;
     margin-top: 10px;
     font-weight: 600;
+  }
+  div.container header nav.navbar a#navbar-hosting.active {
+    border-bottom: 3px solid #0065fc!important; 
+    color:#0065fc;
   }
   a#navbar-hosting:active {
     border-bottom: 3px solid #0065fc;
