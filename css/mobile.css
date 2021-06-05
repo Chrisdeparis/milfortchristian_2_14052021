@@ -85,10 +85,17 @@
   #navbar-hosting {
     margin: 30px 0;
   }
-  .navbar #navbar-hosting {
-    border-bottom: 3px solid #0065fc;
+  .navbar #navbar-hosting.bt-line {
+    border-bottom: 3px solid #f2f2f2;
     padding-bottom: 16px;
     margin-top: 10px;
+  }
+
+  .navbar #navbar-hosting.bt-line:hover {
+    border-bottom: 3px solid #0065fc; 
+  }
+  .navbar #navbar-activities.bt-line:hover {
+    border-bottom: 3px solid #0065fc; 
   }
   .navbar #navbar-activities {
     border-bottom: 3px solid #f2f2f2;
@@ -107,7 +114,6 @@
     margin-top: 0;
   }
   .navbar__link.active-link a {
-    color: #0065fc;
     font-weight: 600;
   }
   .header__find {

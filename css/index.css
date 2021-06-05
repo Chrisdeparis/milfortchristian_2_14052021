@@ -67,9 +67,8 @@ header {
   color: #0065fc;
 }
 
-.navbar__link.active-link a:hover > .navbar .top-line > .underline-effect {
-  background:red;
-}
+
+
 .navbar .navbar__link .underline-effect {
   width: 160%;
   height: 3px;
@@ -90,15 +89,25 @@ header {
 }
 
 .navbar .top-line > .underline-effect {
-  /* background: #0065fc; */
+  
   position: relative;
-    bottom: 44px;
+  bottom: 44px;
 }
+
+
 .navbar__link.active-link.top-line:hover > .underline-effect {
   background: #0065fc;
   position: relative;
     bottom: 44px;
 }
+
+a.active:visited > .underline-effect {
+  background: #0065fc;
+  position: relative;
+  bottom: 44px;
+}
+
+
 #navbar-signup a {
   color: #0065fc;
 }
