@@ -166,6 +166,12 @@ div.header__find p {
   padding: 10px 15px;
   font-size: 0.9em;
 }
+div.desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+}
 div.hosting__filter {
 }
 .hosting__filter div.row {
