@@ -160,7 +160,7 @@ div.header__find p {
   display: flex;
   margin-bottom: 1px;
 }
-.hosting__search button {
+.hosting__search div.desktop {
   border-top-right-radius: 9px;
   border-bottom-right-radius: 9px;
   padding: 10px 15px;
@@ -246,7 +246,18 @@ button {
   border: 0;
   cursor: pointer;
 }
-.hosting__search div {
+div.desktop {
+  background: #0065fc;
+}
+div.recherche {
+  background: #0065fc;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+
+}
+
+.hosting__search div.icon-marker {
   width: 40px;
   height: 48px;
   display: flex;
@@ -869,8 +880,15 @@ section.hosting {
   padding-bottom: 30px;
 }
 
+@media only screen and (min-width:768px) {
+  img.icons-search {
+    display: none;
+  }
+
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
   section.hosting div.container #populaires.grid-container-2 {
     width: 100% !important;
     margin-left: 0 !important;

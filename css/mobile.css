@@ -1,4 +1,14 @@
 @media only screen and (max-width: 767px) {
+  img.icons-search {
+    height: 20px;
+  }
+  div.recherche {
+    display: none;
+  }
+
+  /* button.desktop {
+    display: none;
+  } */
   div.header__find {
     position: relative;
     top: 0;
@@ -254,9 +264,7 @@
   .active p a {
     color: #0065fc;
   }
-  button.desktop {
-    display: none;
-  }
+
   div.mobile {
     border-radius: 9px;
     position: relative;
@@ -302,6 +310,10 @@
   .container {
     width: 100%;
   }
+  button.desktop {
+
+  }
+
   .header__mobile {
     display: flex;
     justify-content: space-around;
@@ -320,9 +332,7 @@
   .active p a {
     color: #0065fc;
   }
-  button.desktop {
-    display: none;
-  }
+  
   div.mobile {
     border-radius: 9px;
     position: relative;
