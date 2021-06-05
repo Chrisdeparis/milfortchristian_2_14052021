@@ -66,8 +66,9 @@ header {
 .navbar a.active-link {
   color: #0065fc;
 }
-.navbar__link.active-link a {
-  color: #0065fc;
+
+.navbar__link.active-link a:hover > .navbar .top-line > .underline-effect {
+  background:red;
 }
 .navbar .navbar__link .underline-effect {
   width: 160%;
@@ -88,7 +89,12 @@ header {
   font-weight: 600;
 }
 
-.navbar #navbar-hosting > .underline-effect {
+.navbar .top-line > .underline-effect {
+  /* background: #0065fc; */
+  position: relative;
+    bottom: 44px;
+}
+.navbar__link.active-link.top-line:hover > .underline-effect {
   background: #0065fc;
   position: relative;
     bottom: 44px;
