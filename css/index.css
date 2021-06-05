@@ -160,11 +160,12 @@ div.header__find p {
   display: flex;
   margin-bottom: 1px;
 }
-.hosting__search div.desktop {
+.hosting__search a div.desktop {
   border-top-right-radius: 9px;
   border-bottom-right-radius: 9px;
   padding: 10px 15px;
   font-size: 0.9em;
+  height: 48px;
 }
 div.desktop {
   display: flex;
@@ -239,9 +240,7 @@ input::placeholder {
 ::placeholder {
   color: #000;
 }
-::placeholder {
-  color: #000;
-}
+
 
 button {
   font-family: "Raleway", sans-serif;

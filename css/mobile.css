@@ -121,6 +121,9 @@
     margin-top: 10px;
     font-weight: 600;
   }
+  a#navbar-hosting:active {
+    border-bottom: 3px solid #0065fc;
+  }
   .navbar .navbar__link .underline-effect {
     display: none;
   }
