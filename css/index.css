@@ -239,7 +239,7 @@ input::placeholder {
 ::placeholder {
   color: #000;
 }
-::placeholder-shown {
+::placeholder {
   color: #000;
 }
 
