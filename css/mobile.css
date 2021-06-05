@@ -6,9 +6,11 @@
     display: none;
   }
 
-  /* button.desktop {
-    display: none;
-  } */
+  div.desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   div.header__find {
     position: relative;
     top: 0;
