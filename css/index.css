@@ -297,8 +297,8 @@ div.recherche {
   margin: 0 5px;
 }
 .filters-item:hover {
-  background: #0065fc;
-  color: white;
+  background: #deebff;
+  color: #0065fc;
   cursor: pointer;
 }
 .filter__one {
